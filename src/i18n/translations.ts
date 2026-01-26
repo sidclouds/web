@@ -1,4 +1,4 @@
-export const resources = {
+﻿export const resources = {
   'en-US': {
     translation: {
       nav: {
@@ -42,7 +42,7 @@ export const resources = {
         },
         featured: {
           title: 'Featured Projects',
-          subtitle: 'Pinned repositories curated from the founder GitHub profile.',
+          subtitle: 'Pinned repositories curated from the builder GitHub profile.',
         },
         updates: {
           title: 'Latest Updates',
@@ -53,7 +53,7 @@ export const resources = {
           subtitle: 'Soft neon, glass haze, and cyber anime frames to set the mood.',
         },
         founder: {
-          title: 'Founder Signal',
+          title: 'Builder Signal',
           subtitle: 'Profile-aligned with carzygod GitHub. Data-driven, multilingual, no hardcoded drift.',
         },
       },
@@ -142,13 +142,13 @@ export const resources = {
         },
       },
       founder: {
-        title: 'carzygod · Founder',
+        title: 'carzygod · Builder',
         intro:
           'Builder focusing on Web3 infrastructure, MPC wallets, and AI agent workflows across TON and EVM ecosystems.',
         labels: {
-          founderOf: 'Founder of',
-          coFounderOf: 'Co-Founder of',
-          communityOf: 'Community developer of',
+          founderOf: 'Builder of',
+          coFounderOf: 'Co-Builder of',
+          communityOf: 'Community developer',
           pinned: 'Pinned repos',
         },
         founderOf: [
@@ -267,7 +267,7 @@ export const resources = {
         gallery4: 'Violet haze frame',
         gallery5: 'Soft cyber glow',
         gallery6: 'Crystal dusk portrait',
-        avatar: 'Founder avatar',
+        avatar: 'Builder avatar',
       },
       seo: {
         home: {
@@ -310,7 +310,7 @@ export const resources = {
         badge: 'favorcoin',
         title: 'sidcloud Studio',
         subtitle: 'Web3 × AI Agents',
-        description: '打造霓虹级基础设施，让自主智能体、链上协议与开发工具一体加速。',
+        description: '打造霮虹级基础设施，让自主智能体、链上协议与开发工具一体加速。',
         ctaAi: '探索 AI 工具箱',
         ctaDev: '探索 Dev 工具箱',
         ctaProjects: '查看项目',
@@ -336,7 +336,7 @@ export const resources = {
         },
         featured: {
           title: '精选项目',
-          subtitle: '来自创始人 GitHub 置顶仓库。',
+          subtitle: '来自开发者 GitHub 置顶仓库。',
         },
         updates: {
           title: '最新动态',
@@ -347,7 +347,7 @@ export const resources = {
           subtitle: '柔和霓虹 + 毛玻璃氛围，捕捉赛博二次元质感。',
         },
         founder: {
-          title: 'Founder 信号',
+          title: '开发者信号',
           subtitle: '与 carzygod GitHub 高度对齐，数据化可多语言展示。',
         },
       },
@@ -436,8 +436,14 @@ export const resources = {
         },
       },
       founder: {
-        title: 'carzygod · 创始人',
+        title: 'carzygod · 开发者',
         intro: '聚焦 Web3 基础设施、MPC 钱包与 AI Agent 流程，覆盖 TON 与 EVM 生态。',
+        labels: {
+          founderOf: '主导',
+          coFounderOf: '联合主导',
+          communityOf: '社区开发',
+          pinned: '置顶仓库',
+        },
         founderOf: [
           'Tonsprotocol Team',
           'EvmLink',
@@ -554,7 +560,7 @@ export const resources = {
         gallery4: '紫雾质感',
         gallery5: '柔光赛博',
         gallery6: '晶透夜色',
-        avatar: '创始人头像',
+        avatar: '开发者头像',
       },
       seo: {
         home: {
@@ -582,4 +588,3 @@ export const resources = {
     },
   },
 };
-

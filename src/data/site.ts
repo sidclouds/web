@@ -6,6 +6,6 @@ export const siteConfig = {
   ],
   socials: {
     github: 'https://github.com/carzygod',
-    telegram: 'https://t.me/sidcloud',
+    telegram: 'https://t.me/carzygod',
   },
 };
