@@ -5,6 +5,7 @@ import SectionHeading from '@/components/SectionHeading';
 import Toast from '@/components/Toast';
 import ToolCard from '@/components/ToolCard';
 import { aiToolCategories, aiTools } from '@/data/toolbox';
+import { imageAssets } from '@/data/assets';
 
 const AiToolbox = () => {
   const { t } = useTranslation();
@@ -44,6 +45,19 @@ const AiToolbox = () => {
     <section className="mx-auto max-w-6xl px-6 py-12">
       <Seo titleKey="seo.ai.title" descriptionKey="seo.ai.description" />
       <SectionHeading title={t('toolbox.ai.title')} description={t('toolbox.ai.subtitle')} />
+
+      <div className="glass-panel relative mb-8 overflow-hidden rounded-3xl border border-white/10">
+        <img
+          src={imageAssets.banner.src}
+          alt={t(imageAssets.banner.altKey)}
+          className="h-48 w-full object-cover md:h-56"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/20 to-transparent" />
+        <div className="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/70">
+          favorcoin
+        </div>
+      </div>
 
       <div className="glass-panel flex flex-col gap-4 rounded-3xl border border-white/10 p-4 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-wrap gap-2">

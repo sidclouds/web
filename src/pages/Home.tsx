@@ -7,7 +7,7 @@ import SectionHeading from '@/components/SectionHeading';
 import { founderData } from '@/data/founder';
 import { projects } from '@/data/projects';
 import { updates } from '@/data/updates';
-import { visuals } from '@/data/visuals';
+import { imageAssets } from '@/data/assets';
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -44,6 +44,9 @@ const Home = () => {
             <p className="text-xs uppercase tracking-[0.4em] text-neon-cyan">
               {t('hero.kicker')}
             </p>
+            <span className="mt-3 inline-flex rounded-full border border-neon-pink/40 bg-black/30 px-4 py-1 text-xs uppercase tracking-[0.3em] text-neon-pink/90">
+              {t('hero.badge')}
+            </span>
             <h1 className="mt-4 font-display text-4xl uppercase tracking-[0.2em] md:text-6xl">
               {t('hero.title')}
             </h1>
@@ -76,7 +79,11 @@ const Home = () => {
               transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
               className="image-frame h-52 w-full"
             >
-              <img src={visuals[0].image} alt={t(visuals[0].altKey)} loading="lazy" />
+              <img
+                src={imageAssets.banner.src}
+                alt={t(imageAssets.banner.altKey)}
+                loading="lazy"
+              />
             </motion.div>
             <motion.div
               animate={{ y: [0, 8, 0] }}
@@ -86,9 +93,17 @@ const Home = () => {
               <p className="text-xs uppercase tracking-[0.3em] text-white/60">
                 {t('home.founder.title')}
               </p>
-              <h2 className="mt-4 font-display text-2xl uppercase tracking-[0.2em]">
-                {t(founderData.titleKey)}
-              </h2>
+              <div className="mt-4 flex items-center gap-4">
+                <img
+                  src={imageAssets.avatar.src}
+                  alt={t(imageAssets.avatar.altKey)}
+                  className="h-14 w-14 rounded-full border border-white/20 object-cover"
+                  loading="lazy"
+                />
+                <h2 className="font-display text-2xl uppercase tracking-[0.2em]">
+                  {t(founderData.titleKey)}
+                </h2>
+              </div>
               <p className="mt-3 text-sm text-white/70">{t(founderData.introKey)}</p>
               <a
                 href={founderData.github}
@@ -113,7 +128,6 @@ const Home = () => {
               whileHover={{ y: -8 }}
               className="glass-card rounded-3xl border border-white/10 p-6 shadow-soft"
             >
-              <div className="mb-4 h-10 w-10 rounded-xl border border-neon-cyan/40 bg-white/5" />
               <h3 className="font-display text-lg uppercase tracking-[0.15em] text-white">
                 {card.title}
               </h3>
@@ -188,30 +202,19 @@ const Home = () => {
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-12">
-        <SectionHeading title={t('home.visuals.title')} description={t('home.visuals.subtitle')} />
-        <div className="grid gap-6 md:grid-cols-2">
-          {visuals.map((visual, index) => (
+        <div className="flex gap-6 overflow-x-auto pb-2">
+          {imageAssets.gallery.map((visual) => (
             <motion.div
               key={visual.id}
               whileHover={{ y: -6 }}
-              className="glass-panel relative overflow-hidden rounded-3xl border border-white/10"
+              className="glass-panel relative h-80 w-56 flex-none overflow-hidden rounded-3xl border border-white/10 md:h-96 md:w-64"
             >
-              <div className="h-56 w-full md:h-64">
-                <img
-                  className="h-full w-full object-cover"
-                  src={visual.image}
-                  alt={t(visual.altKey)}
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs uppercase tracking-[0.2em] text-white/70">
-                <span>{t(visual.altKey)}</span>
-                {visual.credit ? <span className="text-white/50">{visual.credit}</span> : null}
-              </div>
-              <span className="absolute right-4 top-4 rounded-full border border-white/20 bg-black/40 px-3 py-1 text-xs uppercase tracking-[0.2em] text-neon-pink/90">
-                Anime
-              </span>
+              <img
+                className="h-full w-full object-cover"
+                src={visual.src}
+                alt={t(visual.altKey)}
+                loading="lazy"
+              />
             </motion.div>
           ))}
         </div>

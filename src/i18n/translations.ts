@@ -12,6 +12,7 @@ export const resources = {
       },
       hero: {
         kicker: 'Web3 × AI Agents Studio',
+        badge: 'favorcoin',
         title: 'sidcloud Studio',
         subtitle: 'Web3 × AI Agents',
         description:
@@ -260,9 +261,13 @@ export const resources = {
         alerts: 'Alerts',
       },
       visuals: {
-        animeGirl: 'Anime portrait, soft pastel light',
-        fantasyGarden: 'Dreamlike garden in anime tones',
-        cityNight: 'Neon city skyline, midnight glow',
+        hero: 'Soft neon heroine portrait',
+        banner: 'Wide anime skyline banner',
+        gallery3: 'Neon dusk portrait',
+        gallery4: 'Violet haze frame',
+        gallery5: 'Soft cyber glow',
+        gallery6: 'Crystal dusk portrait',
+        avatar: 'Founder avatar',
       },
       seo: {
         home: {
@@ -302,6 +307,7 @@ export const resources = {
       },
       hero: {
         kicker: 'Web3 × AI Agents Studio',
+        badge: 'favorcoin',
         title: 'sidcloud Studio',
         subtitle: 'Web3 × AI Agents',
         description: '打造霓虹级基础设施，让自主智能体、链上协议与开发工具一体加速。',
@@ -542,9 +548,13 @@ export const resources = {
         alerts: 'Alerts',
       },
       visuals: {
-        animeGirl: '柔光二次元肖像',
-        fantasyGarden: '梦幻花园色调',
-        cityNight: '霓虹城市夜景',
+        hero: '柔光霓虹主视觉',
+        banner: '横幅城市夜景',
+        gallery3: '黄昏霓虹肖像',
+        gallery4: '紫雾质感',
+        gallery5: '柔光赛博',
+        gallery6: '晶透夜色',
+        avatar: '创始人头像',
       },
       seo: {
         home: {

@@ -3,6 +3,7 @@ import { Github, Languages, Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import clsx from 'clsx';
 import { siteConfig } from '@/data/site';
+import { imageAssets } from '@/data/assets';
 import Live2DWidget from '@/components/Live2DWidget';
 
 const Layout = () => {
@@ -23,7 +24,12 @@ const Layout = () => {
       <header className="glass-panel relative z-10 border-b border-white/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-xl border border-white/20 bg-glass shadow-soft" />
+            <img
+              src={imageAssets.avatar.src}
+              alt="sidcloud avatar"
+              className="h-10 w-10 rounded-xl border border-white/20 object-cover shadow-soft"
+              loading="lazy"
+            />
             <div>
               <p className="font-display text-lg tracking-[0.2em]">sidcloud</p>
               <p className="text-xs uppercase tracking-[0.3em] text-white/60">studio</p>
@@ -92,10 +98,6 @@ const Layout = () => {
               <Send className="h-4 w-4" />
               Telegram
             </a>
-            <span className="flex items-center gap-2 text-white/40">
-              <span className="h-2 w-2 rounded-full bg-neon-lime" />
-              {t('footer.status')}
-            </span>
           </div>
         </div>
       </footer>
