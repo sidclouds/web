@@ -31,7 +31,7 @@ const Layout = () => {
               loading="lazy"
             />
             <div>
-              <p className="font-display text-lg tracking-[0.2em]">sidcloud</p>
+              <p className="font-display text-lg tracking-[0.2em]">SID</p>
               <p className="text-xs uppercase tracking-[0.3em] text-white/60">studio</p>
             </div>
           </div>

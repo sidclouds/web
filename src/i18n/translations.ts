@@ -46,7 +46,7 @@
         },
         updates: {
           title: 'Latest Updates',
-          subtitle: 'Mock feed today, ready to connect RSS next.',
+          subtitle: 'Fresh signals from the studio—shipping notes, releases, and research drops.',
         },
         visuals: {
           title: 'Anime Visual Deck',
@@ -182,41 +182,41 @@
       projects: {
         flexibleERC20: {
           name: 'FlexibleERC20',
-          description: 'Composable ERC20 primitives tuned for protocol extensibility.',
+          description: 'FlexibleERC20 (pinned).',
         },
         wechatMpc: {
           name: 'Wechat-Alipay-MPC-Wallet-Solution',
-          description: 'MPC wallet solution stack for super-app payment rails.',
+          description: '〖毕设〗version的基于wechat/alipay的MPC 多链钱包解决方案',
         },
         fskinfun: {
           name: 'FskinFun / evm-contract',
-          description: 'EVM contract suite for experimental token launches.',
+          description: 'The token and oracle contract in evm',
         },
         funproxy: {
           name: 'funproxy/.github',
-          description: 'Infra templates and automations for proxy services.',
+          description: 'profile',
         },
         tonspay: {
           name: 'Tonspay/.github',
-          description: 'TON payment rails with automation guardrails.',
+          description: 'Read me !',
         },
         tgwc: {
           name: 'Tonspay/TGWC',
-          description: 'Telegram wallet connector for TON ecosystems.',
+          description: 'Telegram Wallet Connector',
         },
       },
       updates: [
         {
-          title: 'Agent Lab v0.8: Eval packs landed',
-          description: 'New eval harness for tool calling and memory regression checks.',
+          title: 'Vmind',
+          description: 'AI-driven mind-map editor focused on frontend localization.',
         },
         {
-          title: 'MPC wallet automation sprint',
-          description: 'Deployment playbooks standardized for on-chain releases.',
+          title: 'eGBA',
+          description: 'Chrome extension GBA player build and tooling refresh.',
         },
         {
-          title: 'Dev templates refreshed',
-          description: 'New starter kits for Web3 + AI agent stacks.',
+          title: 'extension-auto-flow',
+          description: 'Controller page auto-flow for browser extensions.',
         },
       ],
       tags: {
@@ -340,7 +340,7 @@
         },
         updates: {
           title: '最新动态',
-          subtitle: '当前为 mock 数据，后续可接 RSS。',
+          subtitle: '来自工作室的最新发布、迭代与研究进展。',
         },
         visuals: {
           title: '二次元视觉墙',
@@ -475,41 +475,41 @@
       projects: {
         flexibleERC20: {
           name: 'FlexibleERC20',
-          description: '可组合的 ERC20 基元，面向协议扩展。',
+          description: 'FlexibleERC20（置顶）',
         },
         wechatMpc: {
           name: 'Wechat-Alipay-MPC-Wallet-Solution',
-          description: '面向超级 App 的 MPC 钱包方案。',
+          description: '〖毕设〗version的基于wechat/alipay的MPC 多链钱包解决方案',
         },
         fskinfun: {
           name: 'FskinFun / evm-contract',
-          description: '实验性代币发行的 EVM 合约套件。',
+          description: 'The token and oracle contract in evm',
         },
         funproxy: {
           name: 'funproxy/.github',
-          description: 'Proxy 服务模板与自动化配置。',
+          description: 'profile',
         },
         tonspay: {
           name: 'Tonspay/.github',
-          description: 'TON 支付轨道与自动化 guardrail。',
+          description: 'Read me !',
         },
         tgwc: {
           name: 'Tonspay/TGWC',
-          description: 'Telegram 钱包连接器（TON 生态）。',
+          description: 'Telegram Wallet Connector',
         },
       },
       updates: [
         {
-          title: 'Agent Lab v0.8：评测包上线',
-          description: '新增工具调用与记忆回归评测。',
+          title: 'Vmind',
+          description: 'AI 驱动的前端本地化思维导图编辑器。',
         },
         {
-          title: 'MPC 钱包自动化冲刺',
-          description: '链上发布流程标准化。',
+          title: 'eGBA',
+          description: 'Chrome 扩展 GBA Player 构建与迭代。',
         },
         {
-          title: 'Dev 模板刷新',
-          description: 'Web3 + AI Agent 模板更新。',
+          title: 'extension-auto-flow',
+          description: '扩展控制页面自动流程。',
         },
       ],
       tags: {
