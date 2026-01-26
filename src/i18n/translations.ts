@@ -1,0 +1,575 @@
+export const resources = {
+  'en-US': {
+    translation: {
+      nav: {
+        home: 'Home',
+        aiToolbox: 'AI Toolbox',
+        devToolbox: 'Dev Toolbox',
+      },
+      footer: {
+        tagline: 'Web3 × AI Agents Studio',
+        status: 'Signal Online',
+      },
+      hero: {
+        kicker: 'Web3 × AI Agents Studio',
+        title: 'sidcloud Studio',
+        subtitle: 'Web3 × AI Agents',
+        description:
+          'We build neon-grade infrastructure for autonomous agents, on-chain protocol labs, and dev tooling that ships fast.',
+        ctaAi: 'Explore AI Toolbox',
+        ctaDev: 'Explore Dev Toolbox',
+        ctaProjects: 'View Projects',
+      },
+      home: {
+        core: {
+          title: 'Core Labs',
+          subtitle: 'Three lanes powering sidcloud: agent intelligence, on-chain infrastructure, and developer velocity.',
+          cards: {
+            agent: {
+              title: 'AI Agent Lab',
+              description: 'Orchestration, memory, tool calling, and eval workflows for autonomous teams.',
+            },
+            web3: {
+              title: 'Web3 Protocol & Infra',
+              description: 'Solidity, MPC wallet stacks, connectors, and protocol security design.',
+            },
+            dev: {
+              title: 'Dev Tooling',
+              description: 'CLI, templates, deploy pipelines, and automation for shipping at speed.',
+            },
+          },
+        },
+        featured: {
+          title: 'Featured Projects',
+          subtitle: 'Pinned repositories curated from the founder GitHub profile.',
+        },
+        updates: {
+          title: 'Latest Updates',
+          subtitle: 'Mock feed today, ready to connect RSS next.',
+        },
+        visuals: {
+          title: 'Anime Visual Deck',
+          subtitle: 'Soft neon, glass haze, and cyber anime frames to set the mood.',
+        },
+        founder: {
+          title: 'Founder Signal',
+          subtitle: 'Profile-aligned with carzygod GitHub. Data-driven, multilingual, no hardcoded drift.',
+        },
+      },
+      toolbox: {
+        search: 'Search tools',
+        filterAll: 'All',
+        scene: 'Scenario',
+        snippet: 'Example snippet',
+        copy: 'Copy',
+        copied: 'Copied',
+        ai: {
+          title: 'AI Toolbox',
+          subtitle: 'Agent frameworks, RAG, tool calling, evals, and automation kits.',
+          categories: {
+            agentFramework: 'Agent Framework',
+            ragMemory: 'RAG & Memory',
+            toolCalling: 'Tool Calling',
+            evalBenchmark: 'Eval & Benchmark',
+            automation: 'Automation',
+          },
+          tools: {
+            atlas: {
+              name: 'Atlas Agent',
+              summary: 'Multi-agent orchestration with memory lanes and runtime tool routing.',
+              scene: 'Build autonomous squads for protocol ops.',
+            },
+            lumen: {
+              name: 'Lumen RAG',
+              summary: 'Context retrieval layer for knowledge-driven agent answers.',
+              scene: 'Ask ops docs and playbooks instantly.',
+            },
+            signal: {
+              name: 'Signal Bridge',
+              summary: 'Tool calling gateway with guardrails and response traces.',
+              scene: 'Let agents call on-chain tools safely.',
+            },
+            pulse: {
+              name: 'Pulse Eval',
+              summary: 'Benchmark suite with rubric scoring and regression checks.',
+              scene: 'Keep agents honest with structured evals.',
+            },
+            drift: {
+              name: 'Drift Ops',
+              summary: 'Automation engine for monitoring and alert routing.',
+              scene: 'Detect drift and push response playbooks.',
+            },
+          },
+        },
+        dev: {
+          title: 'Dev Toolbox',
+          subtitle: 'Templates, CLI, deploy automation, and observability stacks.',
+          categories: {
+            templates: 'Templates',
+            cli: 'CLI',
+            deploy: 'Deploy',
+            automation: 'Automation',
+            observability: 'Observability',
+          },
+          tools: {
+            nova: {
+              name: 'Nova Templates',
+              summary: 'Opinionated starters for agent labs, wallets, and protocol tooling.',
+              scene: 'Spin up new labs without boilerplate.',
+            },
+            neoncli: {
+              name: 'Neon CLI',
+              summary: 'Unified release tooling for multi-chain environments.',
+              scene: 'Ship contracts across networks fast.',
+            },
+            pulsedeploy: {
+              name: 'Pulse Deploy',
+              summary: 'Guardrailed deployments with runtime verification.',
+              scene: 'Deploy MPC wallet rails safely.',
+            },
+            autofleet: {
+              name: 'AutoFleet Pipelines',
+              summary: 'Automation recipes for docs, releases, and QA.',
+              scene: 'Keep squads shipping with zero drift.',
+            },
+            spectra: {
+              name: 'Spectra Observe',
+              summary: 'Tracing and alerting for agent services.',
+              scene: 'Track latency and response health.',
+            },
+          },
+        },
+      },
+      founder: {
+        title: 'carzygod · Founder',
+        intro:
+          'Builder focusing on Web3 infrastructure, MPC wallets, and AI agent workflows across TON and EVM ecosystems.',
+        labels: {
+          founderOf: 'Founder of',
+          coFounderOf: 'Co-Founder of',
+          communityOf: 'Community developer of',
+          pinned: 'Pinned repos',
+        },
+        founderOf: [
+          'Tonsprotocol Team',
+          'EvmLink',
+          'Web3SDR',
+          'Fskin',
+          'WechatMpc',
+          'Leverme Protocol',
+          'CardFi Protocol',
+          'Movecash',
+          'Moneropen',
+          'Tonscredit Protocol',
+          'Tstocks Protocol',
+          '团小券',
+          '饰集-ItemsHub',
+          'Spook Wallet',
+        ],
+        coFounderOf: ['PiscesMiner', '跷跷板Protocol', 'OREMAX', 'CopyPaste LTD'],
+        communityOf: ['Ton Society', 'Ton Research', 'Cirluckx'],
+        stacks: ['Js/Ts', 'PHP', 'GOLANG', 'ERLANG', 'RUST', 'SOLIDITY'],
+        pinned: [
+          'FlexibleERC20',
+          'Wechat-Alipay-MPC-Wallet-Solution',
+          'FskinFun/evm-contract',
+          'funproxy/.github',
+          'Tonspay/.github',
+          'Tonspay/TGWC',
+        ],
+      },
+      projects: {
+        flexibleERC20: {
+          name: 'FlexibleERC20',
+          description: 'Composable ERC20 primitives tuned for protocol extensibility.',
+        },
+        wechatMpc: {
+          name: 'Wechat-Alipay-MPC-Wallet-Solution',
+          description: 'MPC wallet solution stack for super-app payment rails.',
+        },
+        fskinfun: {
+          name: 'FskinFun / evm-contract',
+          description: 'EVM contract suite for experimental token launches.',
+        },
+        funproxy: {
+          name: 'funproxy/.github',
+          description: 'Infra templates and automations for proxy services.',
+        },
+        tonspay: {
+          name: 'Tonspay/.github',
+          description: 'TON payment rails with automation guardrails.',
+        },
+        tgwc: {
+          name: 'Tonspay/TGWC',
+          description: 'Telegram wallet connector for TON ecosystems.',
+        },
+      },
+      updates: [
+        {
+          title: 'Agent Lab v0.8: Eval packs landed',
+          description: 'New eval harness for tool calling and memory regression checks.',
+        },
+        {
+          title: 'MPC wallet automation sprint',
+          description: 'Deployment playbooks standardized for on-chain releases.',
+        },
+        {
+          title: 'Dev templates refreshed',
+          description: 'New starter kits for Web3 + AI agent stacks.',
+        },
+      ],
+      tags: {
+        solidity: 'Solidity',
+        token: 'Token',
+        mpc: 'MPC',
+        wallet: 'Wallet',
+        evm: 'EVM',
+        contract: 'Contract',
+        proxy: 'Proxy',
+        infra: 'Infra',
+        payments: 'Payments',
+        ton: 'TON',
+        telegram: 'Telegram',
+        orchestration: 'Orchestration',
+        memory: 'Memory',
+        workflow: 'Workflow',
+        rag: 'RAG',
+        vector: 'Vector',
+        context: 'Context',
+        tooling: 'Tooling',
+        routing: 'Routing',
+        runtime: 'Runtime',
+        eval: 'Eval',
+        qa: 'QA',
+        benchmark: 'Benchmark',
+        automation: 'Automation',
+        ops: 'Ops',
+        monitoring: 'Monitoring',
+        templates: 'Templates',
+        starter: 'Starter',
+        typescript: 'TypeScript',
+        cli: 'CLI',
+        release: 'Release',
+        multichain: 'Multichain',
+        deploy: 'Deploy',
+        guardrails: 'Guardrails',
+        pipeline: 'Pipeline',
+        docs: 'Docs',
+        observability: 'Observability',
+        tracing: 'Tracing',
+        alerts: 'Alerts',
+      },
+      visuals: {
+        animeGirl: 'Anime portrait, soft pastel light',
+        fantasyGarden: 'Dreamlike garden in anime tones',
+        cityNight: 'Neon city skyline, midnight glow',
+      },
+      seo: {
+        home: {
+          title: 'sidcloud Studio — Web3 × AI Agents',
+          description: 'Anime-cyber studio building Web3 protocols and AI agent tooling.',
+        },
+        ai: {
+          title: 'AI Toolbox — sidcloud Studio',
+          description: 'Agent frameworks, RAG, tool calling, evals, and automation.',
+        },
+        dev: {
+          title: 'Dev Toolbox — sidcloud Studio',
+          description: 'Developer tooling for templates, CLI, deploy, and observability.',
+        },
+        notFound: {
+          title: 'Signal Lost — sidcloud Studio',
+          description: 'The route you requested does not exist.',
+        },
+      },
+      notFound: {
+        title: 'Signal Lost',
+        subtitle: 'The route you requested does not exist.',
+        action: 'Return Home',
+      },
+    },
+  },
+  'zh-CN': {
+    translation: {
+      nav: {
+        home: '首页',
+        aiToolbox: 'AI 工具箱',
+        devToolbox: 'Dev 工具箱',
+      },
+      footer: {
+        tagline: 'Web3 × AI Agents Studio',
+        status: '信号在线',
+      },
+      hero: {
+        kicker: 'Web3 × AI Agents Studio',
+        title: 'sidcloud Studio',
+        subtitle: 'Web3 × AI Agents',
+        description: '打造霓虹级基础设施，让自主智能体、链上协议与开发工具一体加速。',
+        ctaAi: '探索 AI 工具箱',
+        ctaDev: '探索 Dev 工具箱',
+        ctaProjects: '查看项目',
+      },
+      home: {
+        core: {
+          title: '核心方向',
+          subtitle: '三条主航道：Agent 智能、链上基础设施、开发效率。',
+          cards: {
+            agent: {
+              title: 'AI Agent Lab',
+              description: '编排、记忆、工具调用与评测体系，驱动自主协作。',
+            },
+            web3: {
+              title: 'Web3 Protocol & Infra',
+              description: 'Solidity、MPC 钱包、连接器与协议安全设计。',
+            },
+            dev: {
+              title: 'Dev Tooling',
+              description: 'CLI、模板、部署流水线与自动化工具链。',
+            },
+          },
+        },
+        featured: {
+          title: '精选项目',
+          subtitle: '来自创始人 GitHub 置顶仓库。',
+        },
+        updates: {
+          title: '最新动态',
+          subtitle: '当前为 mock 数据，后续可接 RSS。',
+        },
+        visuals: {
+          title: '二次元视觉墙',
+          subtitle: '柔和霓虹 + 毛玻璃氛围，捕捉赛博二次元质感。',
+        },
+        founder: {
+          title: 'Founder 信号',
+          subtitle: '与 carzygod GitHub 高度对齐，数据化可多语言展示。',
+        },
+      },
+      toolbox: {
+        search: '搜索工具',
+        filterAll: '全部',
+        scene: '适用场景',
+        snippet: '示例代码',
+        copy: '复制',
+        copied: '已复制',
+        ai: {
+          title: 'AI 工具箱',
+          subtitle: 'Agent 框架、RAG、工具调用、评测与自动化。',
+          categories: {
+            agentFramework: 'Agent Framework',
+            ragMemory: 'RAG & Memory',
+            toolCalling: 'Tool Calling',
+            evalBenchmark: 'Eval & Benchmark',
+            automation: 'Automation',
+          },
+          tools: {
+            atlas: {
+              name: 'Atlas Agent',
+              summary: '多 Agent 编排，记忆通道 + 工具路由。',
+              scene: '构建协议运维的自主协作队列。',
+            },
+            lumen: {
+              name: 'Lumen RAG',
+              summary: '知识驱动的检索增强层。',
+              scene: '随问随答运维文档与 playbook。',
+            },
+            signal: {
+              name: 'Signal Bridge',
+              summary: '工具调用网关，带防护与追踪。',
+              scene: '让 Agent 安全调用链上工具。',
+            },
+            pulse: {
+              name: 'Pulse Eval',
+              summary: '评测套件，支持 rubric 打分与回归检测。',
+              scene: '用结构化评测守住 Agent 表现。',
+            },
+            drift: {
+              name: 'Drift Ops',
+              summary: '自动化监控与告警路由引擎。',
+              scene: '检测漂移并触发响应流程。',
+            },
+          },
+        },
+        dev: {
+          title: 'Dev 工具箱',
+          subtitle: '模板、CLI、部署自动化与观测栈。',
+          categories: {
+            templates: 'Templates',
+            cli: 'CLI',
+            deploy: 'Deploy',
+            automation: 'Automation',
+            observability: 'Observability',
+          },
+          tools: {
+            nova: {
+              name: 'Nova Templates',
+              summary: '为 Agent Lab、钱包和协议工具准备的模板。',
+              scene: '不用重复造轮子，快速起盘。',
+            },
+            neoncli: {
+              name: 'Neon CLI',
+              summary: '多链环境统一发布工具。',
+              scene: '快速发布跨链合约版本。',
+            },
+            pulsedeploy: {
+              name: 'Pulse Deploy',
+              summary: '带校验与 guardrail 的部署流程。',
+              scene: '安全部署 MPC 钱包链路。',
+            },
+            autofleet: {
+              name: 'AutoFleet Pipelines',
+              summary: '文档、发布、QA 的自动化配方。',
+              scene: '保持团队高频交付。',
+            },
+            spectra: {
+              name: 'Spectra Observe',
+              summary: 'Agent 服务追踪与告警。',
+              scene: '监控延迟与响应健康度。',
+            },
+          },
+        },
+      },
+      founder: {
+        title: 'carzygod · 创始人',
+        intro: '聚焦 Web3 基础设施、MPC 钱包与 AI Agent 流程，覆盖 TON 与 EVM 生态。',
+        founderOf: [
+          'Tonsprotocol Team',
+          'EvmLink',
+          'Web3SDR',
+          'Fskin',
+          'WechatMpc',
+          'Leverme Protocol',
+          'CardFi Protocol',
+          'Movecash',
+          'Moneropen',
+          'Tonscredit Protocol',
+          'Tstocks Protocol',
+          '团小券',
+          '饰集-ItemsHub',
+          'Spook Wallet',
+        ],
+        coFounderOf: ['PiscesMiner', '跷跷板Protocol', 'OREMAX', 'CopyPaste LTD'],
+        communityOf: ['Ton Society', 'Ton Research', 'Cirluckx'],
+        stacks: ['Js/Ts', 'PHP', 'GOLANG', 'ERLANG', 'RUST', 'SOLIDITY'],
+        pinned: [
+          'FlexibleERC20',
+          'Wechat-Alipay-MPC-Wallet-Solution',
+          'FskinFun/evm-contract',
+          'funproxy/.github',
+          'Tonspay/.github',
+          'Tonspay/TGWC',
+        ],
+      },
+      projects: {
+        flexibleERC20: {
+          name: 'FlexibleERC20',
+          description: '可组合的 ERC20 基元，面向协议扩展。',
+        },
+        wechatMpc: {
+          name: 'Wechat-Alipay-MPC-Wallet-Solution',
+          description: '面向超级 App 的 MPC 钱包方案。',
+        },
+        fskinfun: {
+          name: 'FskinFun / evm-contract',
+          description: '实验性代币发行的 EVM 合约套件。',
+        },
+        funproxy: {
+          name: 'funproxy/.github',
+          description: 'Proxy 服务模板与自动化配置。',
+        },
+        tonspay: {
+          name: 'Tonspay/.github',
+          description: 'TON 支付轨道与自动化 guardrail。',
+        },
+        tgwc: {
+          name: 'Tonspay/TGWC',
+          description: 'Telegram 钱包连接器（TON 生态）。',
+        },
+      },
+      updates: [
+        {
+          title: 'Agent Lab v0.8：评测包上线',
+          description: '新增工具调用与记忆回归评测。',
+        },
+        {
+          title: 'MPC 钱包自动化冲刺',
+          description: '链上发布流程标准化。',
+        },
+        {
+          title: 'Dev 模板刷新',
+          description: 'Web3 + AI Agent 模板更新。',
+        },
+      ],
+      tags: {
+        solidity: 'Solidity',
+        token: 'Token',
+        mpc: 'MPC',
+        wallet: 'Wallet',
+        evm: 'EVM',
+        contract: 'Contract',
+        proxy: 'Proxy',
+        infra: 'Infra',
+        payments: 'Payments',
+        ton: 'TON',
+        telegram: 'Telegram',
+        orchestration: 'Orchestration',
+        memory: 'Memory',
+        workflow: 'Workflow',
+        rag: 'RAG',
+        vector: 'Vector',
+        context: 'Context',
+        tooling: 'Tooling',
+        routing: 'Routing',
+        runtime: 'Runtime',
+        eval: 'Eval',
+        qa: 'QA',
+        benchmark: 'Benchmark',
+        automation: 'Automation',
+        ops: 'Ops',
+        monitoring: 'Monitoring',
+        templates: 'Templates',
+        starter: 'Starter',
+        typescript: 'TypeScript',
+        cli: 'CLI',
+        release: 'Release',
+        multichain: 'Multichain',
+        deploy: 'Deploy',
+        guardrails: 'Guardrails',
+        pipeline: 'Pipeline',
+        docs: 'Docs',
+        observability: 'Observability',
+        tracing: 'Tracing',
+        alerts: 'Alerts',
+      },
+      visuals: {
+        animeGirl: '柔光二次元肖像',
+        fantasyGarden: '梦幻花园色调',
+        cityNight: '霓虹城市夜景',
+      },
+      seo: {
+        home: {
+          title: 'sidcloud Studio — Web3 × AI Agents',
+          description: '二次元赛博风格的 Web3 + AI Agents 工作室官网。',
+        },
+        ai: {
+          title: 'AI 工具箱 — sidcloud Studio',
+          description: 'Agent 框架、RAG、工具调用、评测与自动化。',
+        },
+        dev: {
+          title: 'Dev 工具箱 — sidcloud Studio',
+          description: '模板、CLI、部署自动化与观测栈。',
+        },
+        notFound: {
+          title: '信号丢失 — sidcloud Studio',
+          description: '你访问的页面不存在。',
+        },
+      },
+      notFound: {
+        title: '信号丢失',
+        subtitle: '你访问的页面不存在。',
+        action: '返回首页',
+      },
+    },
+  },
+};
+
