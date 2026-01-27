@@ -1,0 +1,1092 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "assistant",
+    "vendor": "OpenAI",
+    "website": "https://openai.com/chatgpt/overview",
+    "description": "General-purpose AI assistant for chat, writing, and problem solving.",
+    "tags": [
+      "chat",
+      "general"
+    ],
+    "sources": [
+      "https://openai.com/chatgpt/overview"
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "assistant",
+    "vendor": "Anthropic",
+    "website": "https://www.anthropic.com/claude",
+    "description": "AI assistant from Anthropic, available on web and desktop apps.",
+    "tags": [
+      "chat",
+      "general"
+    ],
+    "sources": [
+      "https://www.anthropic.com/claude",
+      "https://support.anthropic.com/en/articles/8114491-how-do-i-get-started-with-claude-ai"
+    ]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "category": "assistant",
+    "vendor": "Google",
+    "website": "https://assistant.google.com/intl/en_en/platforms/phones/",
+    "description": "Google's AI assistant available via the Gemini app and Google Assistant experiences.",
+    "tags": [
+      "chat",
+      "mobile"
+    ],
+    "sources": [
+      "https://assistant.google.com/intl/en_en/platforms/phones/",
+      "https://apps.apple.com/us/app/google-gemini/id6477489729"
+    ]
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "category": "assistant",
+    "vendor": "Microsoft",
+    "website": "https://www.microsoft.com/microsoft-365/copilot",
+    "description": "AI productivity tools for work inside Microsoft 365 experiences.",
+    "tags": [
+      "chat",
+      "productivity"
+    ],
+    "sources": [
+      "https://www.microsoft.com/microsoft-365/copilot"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "assistant",
+    "vendor": "Perplexity",
+    "website": "https://www.perplexity.ai/about",
+    "description": "Answer engine that retrieves and cites information in responses.",
+    "tags": [
+      "search",
+      "citations"
+    ],
+    "sources": [
+      "https://www.perplexity.ai/about"
+    ]
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "category": "vibe_coding",
+    "vendor": "OpenAI",
+    "website": "https://openai.com/codex",
+    "description": "Agentic software engineer that works through CLI, IDE extensions, and cloud tasks to read, edit, run, and test code with citations.",
+    "tags": [
+      "agent",
+      "ide"
+    ],
+    "sources": [
+      "https://openai.com/codex"
+    ]
+  },
+  {
+    "id": "antigravity",
+    "name": "Google Antigravity",
+    "category": "vibe_coding",
+    "vendor": "Google",
+    "website": "https://antigravity.google/",
+    "description": "Agent-first IDE powered by Gemini 3 models that coordinates asynchronous AI agents and surfaces trustworthy artifacts.",
+    "tags": [
+      "agent",
+      "ide"
+    ],
+    "sources": [
+      "https://antigravity.google/"
+    ]
+  },
+  {
+    "id": "ai-studio",
+    "name": "AI Studio",
+    "category": "vibe_coding",
+    "vendor": "Google",
+    "website": "https://ai.google.dev/aistudio/",
+    "description": "Gemini-powered Build mode that turns prompts into React apps, visuals, and deployable previews with editable templates.",
+    "tags": [
+      "app_builder",
+      "gemini"
+    ],
+    "sources": [
+      "https://ai.google.dev/aistudio/"
+    ]
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "category": "vibe_coding",
+    "vendor": "Lovable",
+    "website": "https://lovable.dev/",
+    "description": "Swedish vibe coding platform that converts natural-language briefs into pixel-perfect, full-stack apps with backend services.",
+    "tags": [
+      "app_builder",
+      "no_code"
+    ],
+    "sources": [
+      "https://lovable.dev/"
+    ]
+  },
+  {
+    "id": "tempo-labs",
+    "name": "Tempo Labs",
+    "category": "vibe_coding",
+    "vendor": "Tempo",
+    "website": "https://tempo.new/",
+    "description": "AI visual editor for React that blends design tools, Gemini reasoning, and drag-and-drop components for production UIs.",
+    "tags": [
+      "design",
+      "ui"
+    ],
+    "sources": [
+      "https://tempo.new/"
+    ]
+  },
+  {
+    "id": "poolside",
+    "name": "Poolside",
+    "category": "vibe_coding",
+    "vendor": "Poolside",
+    "website": "https://poolside.ai/",
+    "description": "Foundation model lab that ships secure AI agents, IDE extensions, terminals, and observability for enterprise code generation.",
+    "tags": [
+      "enterprise",
+      "models"
+    ],
+    "sources": [
+      "https://poolside.ai/"
+    ]
+  },
+  {
+    "id": "emergent",
+    "name": "Emergent",
+    "category": "vibe_coding",
+    "vendor": "Emergent",
+    "website": "https://emergentmind.com/",
+    "description": "Agentic vibe coding platform that lets non-technical founders build production-ready apps by orchestrating autonomous AI agents.",
+    "tags": [
+      "agent",
+      "app_builder"
+    ],
+    "sources": [
+      "https://emergentmind.com/"
+    ]
+  },
+  {
+    "id": "base44",
+    "name": "Base44",
+    "category": "vibe_coding",
+    "vendor": "Base44",
+    "website": "https://base44.com/",
+    "description": "Conversational builder that translates prompts into responsive web and mobile apps, handling auth and analytics.",
+    "tags": [
+      "app_builder",
+      "design"
+    ],
+    "sources": [
+      "https://base44.com/"
+    ]
+  },
+  {
+    "id": "div-idy",
+    "name": "Div-idy",
+    "category": "vibe_coding",
+    "vendor": "Div-idy",
+    "website": "https://www.div-idy.com/",
+    "description": "Prompt-driven web app generator that scaffolds UI, backend logic, CMS features, and deployment.",
+    "tags": [
+      "web",
+      "app_builder"
+    ],
+    "sources": [
+      "https://www.div-idy.com/"
+    ]
+  },
+  {
+    "id": "supernova",
+    "name": "Supernova",
+    "category": "vibe_coding",
+    "vendor": "Supernova",
+    "website": "https://www.supernova.io/",
+    "description": "Design-system platform that keeps tokens, docs, and code in sync while exporting high-quality components.",
+    "tags": [
+      "design_system",
+      "export"
+    ],
+    "sources": [
+      "https://www.supernova.io/"
+    ]
+  },
+  {
+    "id": "memex",
+    "name": "Memex",
+    "category": "vibe_coding",
+    "vendor": "Memex",
+    "website": "https://memex.tech/",
+    "description": "Privacy-forward vibe coding workspace optimized for offline dev, local testing, and reproducible exports.",
+    "tags": [
+      "privacy",
+      "local"
+    ],
+    "sources": [
+      "https://memex.tech/"
+    ]
+  },
+  {
+    "id": "flowise-ai",
+    "name": "FlowiseAI",
+    "category": "vibe_coding",
+    "vendor": "FlowiseAI",
+    "website": "https://flowiseai.com/",
+    "description": "Open-source no-code LLM orchestration layer that lets you chain prompts, models, and tools into automation workflows.",
+    "tags": [
+      "workflow",
+      "open_source"
+    ],
+    "sources": [
+      "https://flowiseai.com/"
+    ]
+  },
+  {
+    "id": "anysphere",
+    "name": "Anysphere",
+    "category": "vibe_coding",
+    "vendor": "Anysphere",
+    "website": "https://anysphere.inc/",
+    "description": "Agent-centric environment where high-level instructions spin up code, refactors, and architecture decisions.",
+    "tags": [
+      "agent",
+      "planning"
+    ],
+    "sources": [
+      "https://anysphere.inc/"
+    ]
+  },
+  {
+    "id": "openinterpreter",
+    "name": "OpenInterpreter",
+    "category": "vibe_coding",
+    "vendor": "OpenInterpreter",
+    "website": "https://openinterpreter.com/",
+    "description": "Local natural-language interface that executes Python, JavaScript, and shell commands while keeping code under your control.",
+    "tags": [
+      "terminal",
+      "automation"
+    ],
+    "sources": [
+      "https://openinterpreter.com/"
+    ]
+  },
+  {
+    "id": "windmill",
+    "name": "Windmill",
+    "category": "vibe_coding",
+    "vendor": "Windmill Labs",
+    "website": "https://windmill.dev/",
+    "description": "Open-source platform that turns scripts into UI, APIs, and workflows with auto-generated interfaces.",
+    "tags": [
+      "automation",
+      "workflow"
+    ],
+    "sources": [
+      "https://windmill.dev/"
+    ]
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "category": "vibe_coding",
+    "vendor": "Glitch",
+    "website": "https://glitch.com/",
+    "description": "Remixable dev environment with serverless runtimes and LLM-powered editing for fast prototypes.",
+    "tags": [
+      "prototyping",
+      "web"
+    ],
+    "sources": [
+      "https://glitch.com/"
+    ]
+  },
+  {
+    "id": "codesandbox-projects",
+    "name": "CodeSandbox Projects",
+    "category": "vibe_coding",
+    "vendor": "CodeSandbox",
+    "website": "https://codesandbox.io/projects",
+    "description": "Browser-native workspace for React and full-stack apps with Dev Containers and professional workflows.",
+    "tags": [
+      "react",
+      "dev_tools"
+    ],
+    "sources": [
+      "https://codesandbox.io/projects"
+    ]
+  },
+  {
+    "id": "tldraw-codegen",
+    "name": "tldraw + Codegen",
+    "category": "vibe_coding",
+    "vendor": "tldraw",
+    "website": "https://tldraw.com/",
+    "description": "Visual canvas that hooks into codegen extensions so designers can turn sketches into working front-end code.",
+    "tags": [
+      "design",
+      "prototype"
+    ],
+    "sources": [
+      "https://tldraw.com/"
+    ]
+  },
+  {
+    "id": "warp-terminal",
+    "name": "Warp Terminal",
+    "category": "vibe_coding",
+    "vendor": "Warp",
+    "website": "https://www.warp.dev/",
+    "description": "Modern terminal with blocks, autosuggestions, AI command help, and real-time co-terminals.",
+    "tags": [
+      "terminal",
+      "collaboration"
+    ],
+    "sources": [
+      "https://www.warp.dev/"
+    ]
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "vibe_coding",
+    "vendor": "GitHub",
+    "website": "https://github.com/features/copilot/",
+    "description": "AI pair programmer that autocompletes code, writes documentation, and powers Copilot Chat inside familiar IDEs.",
+    "tags": [
+      "ide",
+      "completion"
+    ],
+    "sources": [
+      "https://github.com/features/copilot/"
+    ]
+  },
+  {
+    "id": "amazon-codewhisperer",
+    "name": "Amazon CodeWhisperer",
+    "category": "vibe_coding",
+    "vendor": "Amazon Web Services",
+    "website": "https://aws.amazon.com/codewhisperer/",
+    "description": "AWS-native coding assistant that offers secure snippets, policy checks, and cloud documentation hints.",
+    "tags": [
+      "aws",
+      "security"
+    ],
+    "sources": [
+      "https://aws.amazon.com/codewhisperer/"
+    ]
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "category": "vibe_coding",
+    "vendor": "Tabnine",
+    "website": "https://www.tabnine.com/",
+    "description": "Privacy-focused autocomplete that can run locally, learn team conventions, and sync across IDEs.",
+    "tags": [
+      "autocomplete",
+      "privacy"
+    ],
+    "sources": [
+      "https://www.tabnine.com/"
+    ]
+  },
+  {
+    "id": "jetbrains-ai-assistant",
+    "name": "JetBrains AI Assistant",
+    "category": "vibe_coding",
+    "vendor": "JetBrains",
+    "website": "https://www.jetbrains.com/ai/",
+    "description": "Assistant for IntelliJ, PyCharm, and WebStorm that turns prompts into code, documentation, and explanations.",
+    "tags": [
+      "jetbrains",
+      "ide"
+    ],
+    "sources": [
+      "https://www.jetbrains.com/ai/"
+    ]
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "category": "vibe_coding",
+    "vendor": "Anthropic",
+    "website": "https://www.claudecode.io/",
+    "description": "Logic-focused coding agent that understands multi-file context, refactors, and explains code for collaborators.",
+    "tags": [
+      "code_review",
+      "agent"
+    ],
+    "sources": [
+      "https://www.claudecode.io/"
+    ]
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "category": "vibe_coding",
+    "vendor": "Codeium",
+    "website": "https://codeium.com/",
+    "description": "Budget-friendly autocomplete and code generation tool with unlimited free usage and IDE plugins.",
+    "tags": [
+      "autocomplete",
+      "budget"
+    ],
+    "sources": [
+      "https://codeium.com/"
+    ]
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo",
+    "category": "vibe_coding",
+    "vendor": "Qodo",
+    "website": "https://qodo.ai/",
+    "description": "AI code-review assistant that offers PR feedback, tests, and security checks for distributed teams.",
+    "tags": [
+      "code_review",
+      "teams"
+    ],
+    "sources": [
+      "https://qodo.ai/"
+    ]
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "category": "vibe_coding",
+    "vendor": "Aider",
+    "website": "https://aider.chat/",
+    "description": "Offline, terminal-first AI chat that supports custom LLMs for private automation.",
+    "tags": [
+      "terminal",
+      "offline"
+    ],
+    "sources": [
+      "https://aider.chat/"
+    ]
+  },
+  {
+    "id": "replit-ghostwriter",
+    "name": "Replit Ghostwriter",
+    "category": "vibe_coding",
+    "vendor": "Replit",
+    "website": "https://www.smart-tools.ai/",
+    "description": "Browser-based pair programmer that explains, edits, and generates code inside Replit's collaborative IDE.",
+    "tags": [
+      "ide",
+      "ghostwriter"
+    ],
+    "sources": [
+      "https://www.smart-tools.ai/"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "vibe_coding",
+    "vendor": "Cursor",
+    "website": "https://www.trycursor.com/",
+    "description": "AI code editor with natural-language edits and codebase-aware assistance.",
+    "tags": [
+      "ide",
+      "coding"
+    ],
+    "sources": [
+      "https://www.trycursor.com/"
+    ]
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "category": "vibe_coding",
+    "vendor": "Replit",
+    "website": "https://replit.com/ai",
+    "description": "Natural-language app builder that generates and deploys apps from prompts.",
+    "tags": [
+      "app_builder",
+      "no_code"
+    ],
+    "sources": [
+      "https://replit.com/ai",
+      "https://replit.com/products/agent"
+    ]
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "category": "vibe_coding",
+    "vendor": "Vercel",
+    "website": "https://v0.app/",
+    "description": "AI app builder that generates UI and application code from prompts.",
+    "tags": [
+      "ui",
+      "app_builder"
+    ],
+    "sources": [
+      "https://v0.app/",
+      "https://vercel.com/blog/v0-app"
+    ]
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "category": "vibe_coding",
+    "vendor": "StackBlitz",
+    "website": "https://bolt.new/",
+    "description": "Prompt-to-app experience for building and running web apps in the browser.",
+    "tags": [
+      "app_builder",
+      "full_stack"
+    ],
+    "sources": [
+      "https://github.com/stackblitz/bolt.new"
+    ]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "category": "mcp_agent",
+    "vendor": "Windsurf",
+    "website": "https://windsurf.com/",
+    "description": "AI coding environment with agentic features and MCP support.",
+    "tags": [
+      "ide",
+      "mcp"
+    ],
+    "sources": [
+      "https://windsurf.com/",
+      "https://docs.windsurf.com/windsurf/cascade/mcp"
+    ]
+  },
+  {
+    "id": "claude-desktop",
+    "name": "Claude Desktop",
+    "category": "mcp_agent",
+    "vendor": "Anthropic",
+    "website": "https://www.anthropic.com/claude",
+    "description": "Desktop Claude app with MCP support.",
+    "tags": [
+      "assistant",
+      "mcp"
+    ],
+    "sources": [
+      "https://support.anthropic.com/en/articles/10065433-installing-claude-desktop",
+      "https://modelcontextprotocol.info/docs/clients/"
+    ]
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "category": "mcp_agent",
+    "vendor": "Continue",
+    "website": "https://docs.continue.dev/index",
+    "description": "Open-source AI coding assistant with MCP support.",
+    "tags": [
+      "ide",
+      "mcp"
+    ],
+    "sources": [
+      "https://github.com/continuedev/continue",
+      "https://docs.continue.dev/customize/deep-dives/mcp",
+      "https://modelcontextprotocol.info/docs/clients/"
+    ]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "category": "mcp_agent",
+    "vendor": "Zed Industries",
+    "website": "https://zed.dev/",
+    "description": "High-performance code editor with built-in AI features and MCP support.",
+    "tags": [
+      "ide",
+      "mcp"
+    ],
+    "sources": [
+      "https://zed.dev/ai",
+      "https://modelcontextprotocol.info/docs/clients/"
+    ]
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "category": "mcp_agent",
+    "vendor": "Sourcegraph",
+    "website": "https://sourcegraph.com/cody",
+    "description": "AI coding assistant from Sourcegraph with MCP support.",
+    "tags": [
+      "coding_assistant",
+      "mcp"
+    ],
+    "sources": [
+      "https://sourcegraph.com/cody",
+      "https://modelcontextprotocol.info/docs/clients/"
+    ]
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "category": "mcp_agent",
+    "vendor": "Butterfly Effect",
+    "website": "https://manus.im/",
+    "description": "Autonomous AI agent launched in 2025 that plans, executes, and monitors complex workflows across analytics, research, and productivity systems.",
+    "tags": [
+      "autonomous",
+      "enterprise"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manus_(AI_agent)"
+    ]
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "category": "mcp_agent",
+    "vendor": "Significant Gravitas",
+    "website": "https://agpt.co",
+    "description": "Open-source autonomous agent that decomposes high-level goals into self-managing loops of planning, web research, and execution tasks.",
+    "tags": [
+      "autonomous",
+      "open_source"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/AutoGPT"
+    ]
+  },
+  {
+    "id": "agentgpt",
+    "name": "AgentGPT",
+    "category": "mcp_agent",
+    "vendor": "Reworkd AI",
+    "website": "https://agentgpt.reworkd.ai",
+    "description": "Browser-native agent studio where non-developers create autonomous agents that browse the web, call tools, and iteratively refine goals.",
+    "tags": [
+      "browser",
+      "autonomous"
+    ],
+    "sources": [
+      "https://agentwelt.com/agentgpt/"
+    ]
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "category": "mcp_agent",
+    "vendor": "BabyAGI",
+    "website": "https://babyagi.org/",
+    "description": "Self-building agent framework with dashboards that track function graphs, dependencies, and execution logs for autonomous workflows.",
+    "tags": [
+      "planner",
+      "open_source"
+    ],
+    "sources": [
+      "https://babyagi.org/"
+    ]
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "category": "mcp_agent",
+    "vendor": "CrewAI",
+    "website": "https://www.crewai.com/",
+    "description": "Enterprise platform that lets teams orchestrate crews of agentic workflows, complete with visual editors, governance, and monitoring.",
+    "tags": [
+      "multi_agent",
+      "enterprise"
+    ],
+    "sources": [
+      "https://www.crewai.com/"
+    ]
+  },
+  {
+    "id": "superagi",
+    "name": "SuperAGI",
+    "category": "mcp_agent",
+    "vendor": "SuperAGI",
+    "website": "https://superagi.com/",
+    "description": "Agent-native CRM that bundles AI sales, marketing, support, and automation agents inside one GTM platform.",
+    "tags": [
+      "crm",
+      "agent"
+    ],
+    "sources": [
+      "https://superagi.com/"
+    ]
+  },
+  {
+    "id": "langchain-agents",
+    "name": "LangChain Agents",
+    "category": "mcp_agent",
+    "vendor": "LangChain",
+    "website": "https://www.langchain.com/use-case/agents",
+    "description": "Developer framework that wires tools, memories, and planners into customizable agents with human-in-the-loop controls.",
+    "tags": [
+      "framework",
+      "tooling"
+    ],
+    "sources": [
+      "https://www.langchain.com/use-case/agents"
+    ]
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "category": "mcp_agent",
+    "vendor": "DeepWisdom",
+    "website": "https://docs.deepwisdom.ai/main/",
+    "description": "Multi-agent simulation that assigns product, engineering, testing, and documentation roles to GPTs to deliver full software projects.",
+    "tags": [
+      "multi_agent",
+      "software"
+    ],
+    "sources": [
+      "https://docs.deepwisdom.ai/main/"
+    ]
+  },
+  {
+    "id": "devin-ai",
+    "name": "Devin AI",
+    "category": "mcp_agent",
+    "vendor": "Cognition Labs",
+    "website": "https://devin.ai/",
+    "description": "AI engineer agent that plans, writes, refactors, and deploys software with explicit change reports and tool calls.",
+    "tags": [
+      "code",
+      "assistant"
+    ],
+    "sources": [
+      "https://devin.ai/"
+    ]
+  },
+  {
+    "id": "agentops",
+    "name": "AgentOps",
+    "category": "mcp_agent",
+    "vendor": "AgentOps",
+    "website": "https://agentops.ai/",
+    "description": "Observability and monitoring layer that traces, audits, and benchmarks multi-agent executions from prototype to production.",
+    "tags": [
+      "observability",
+      "monitoring"
+    ],
+    "sources": [
+      "https://agentops.ai/"
+    ]
+  },
+  {
+    "id": "agentbasis",
+    "name": "AgentBasis",
+    "category": "mcp_agent",
+    "vendor": "AgentBasis",
+    "website": "https://www.agentbasis.co/",
+    "description": "Control-plane for managing fleets of AI agents with dashboards, health metrics, and cost-aware scheduling.",
+    "tags": [
+      "control_plane",
+      "monitor"
+    ],
+    "sources": [
+      "https://www.agentbasis.co/"
+    ]
+  },
+  {
+    "id": "agentcore",
+    "name": "AgentCORE",
+    "category": "mcp_agent",
+    "vendor": "CoreOps",
+    "website": "https://www.coreops.ai/products/agentcore",
+    "description": "Enterprise platform for building, training, and deploying intelligent agents that span ERP, CRM, and automation workflows.",
+    "tags": [
+      "enterprise",
+      "workflow"
+    ],
+    "sources": [
+      "https://www.coreops.ai/products/agentcore"
+    ]
+  },
+  {
+    "id": "agentop",
+    "name": "AgentOp",
+    "category": "mcp_agent",
+    "vendor": "AgentOp",
+    "website": "https://www.agentop.com/",
+    "description": "Local-first web builder for Python-powered AI agents that export standalone HTML bundles and run with WebLLMs.",
+    "tags": [
+      "browser",
+      "python"
+    ],
+    "sources": [
+      "https://www.agentop.com/"
+    ]
+  },
+  {
+    "id": "managed-agentops",
+    "name": "Managed AgentOps",
+    "category": "mcp_agent",
+    "vendor": "Managed AgentOps",
+    "website": "https://www.managedagentops.com/",
+    "description": "Full-stack service that designs, governs, and observes agent workloads for enterprises, including prompt-versioning and HITL checkpoints.",
+    "tags": [
+      "governance",
+      "ops"
+    ],
+    "sources": [
+      "https://www.managedagentops.com/"
+    ]
+  },
+  {
+    "id": "aiagents-for-ops",
+    "name": "AI Agents for Ops",
+    "category": "mcp_agent",
+    "vendor": "AI Agents for Ops",
+    "website": "https://www.aiagentsforops.com/",
+    "description": "Consulting-ready practice that sculpts AWS Bedrock-powered agents to automate insurance, finance, and operations workflows.",
+    "tags": [
+      "aws",
+      "bedrock"
+    ],
+    "sources": [
+      "https://www.aiagentsforops.com/"
+    ]
+  },
+  {
+    "id": "agent-365",
+    "name": "Agent 365",
+    "category": "mcp_agent",
+    "vendor": "Microsoft",
+    "website": "https://www.windowscentral.com/microsoft/microsoft-doubles-down-on-agentic-ai-agent-365",
+    "description": "Microsoft's Agent 365 brings enterprise-scale governance and monitoring to billions of AI agents across Copilot, Azure, and Windows.",
+    "tags": [
+      "microsoft",
+      "governance"
+    ],
+    "sources": [
+      "https://www.windowscentral.com/microsoft/microsoft-doubles-down-on-agentic-ai-agent-365"
+    ]
+  },
+  {
+    "id": "amazon-bedrock-agentcore",
+    "name": "Amazon Bedrock AgentCore",
+    "category": "mcp_agent",
+    "vendor": "Amazon Web Services",
+    "website": "https://www.techradar.com/pro/aws-looks-to-super-charge-ai-agents-with-amazon-bedrock-agentcore",
+    "description": "Preview infrastructure for building, securing, and observing AWS-native agents with runtime, memory, and identity components.",
+    "tags": [
+      "aws",
+      "platform"
+    ],
+    "sources": [
+      "https://www.techradar.com/pro/aws-looks-to-super-charge-ai-agents-with-amazon-bedrock-agentcore"
+    ]
+  },
+  {
+    "id": "agent5i",
+    "name": "Agent5i",
+    "category": "mcp_agent",
+    "vendor": "C5i",
+    "website": "https://timesofindia.indiatimes.com/technology/tech-news/c5i-launches-enterprise-grade-platform-that-integrates-autonomous-agents-for-streamlined-workflows-and-more/articleshow/127151291.cms",
+    "description": "Agent5i platform integrates autonomous agents into enterprise workflows for planning, intelligence, and governance.",
+    "tags": [
+      "enterprise",
+      "automation"
+    ],
+    "sources": [
+      "https://timesofindia.indiatimes.com/technology/tech-news/c5i-launches-enterprise-grade-platform-that-integrates-autonomous-agents-for-streamlined-workflows-and-more/articleshow/127151291.cms"
+    ]
+  },
+  {
+    "id": "workato-enterprise-mcp",
+    "name": "Workato Enterprise MCP",
+    "category": "mcp_agent",
+    "vendor": "Workato",
+    "website": "https://www.axios.com/sponsored/workato-delivers-industrys-first-enterprise-mcp-platform-for-ai-agents",
+    "description": "Enterprise-ready MCP platform that gives agents secure context, compliance, and integration-ready connectors.",
+    "tags": [
+      "mcp",
+      "enterprise"
+    ],
+    "sources": [
+      "https://www.axios.com/sponsored/workato-delivers-industrys-first-enterprise-mcp-platform-for-ai-agents"
+    ]
+  },
+  {
+    "id": "logicbroker-agentic-platform",
+    "name": "Logicbroker Agentic Platform",
+    "category": "mcp_agent",
+    "vendor": "Logicbroker",
+    "website": "https://logicbroker.com/agentic-platform",
+    "description": "Commerce orchestration engine that exposes MCP-ready datasets so shopping agents can discover, compare, and purchase from catalogs in real time.",
+    "tags": [
+      "commerce",
+      "mcp"
+    ],
+    "sources": [
+      "https://logicbroker.com/agentic-platform"
+    ]
+  },
+  {
+    "id": "bluerock-agentic-protection",
+    "name": "BlueRock Agentic Protection Platform",
+    "category": "mcp_agent",
+    "vendor": "BlueRock",
+    "website": "https://www.bluerock.io/post/bluerock-unveils-the-agentic-protection-platform",
+    "description": "Security platform that observes and enforces guardrails around MCP-agent actions before they execute.",
+    "tags": [
+      "security",
+      "mcp"
+    ],
+    "sources": [
+      "https://www.bluerock.io/post/bluerock-unveils-the-agentic-protection-platform"
+    ]
+  },
+  {
+    "id": "descope-agentic-identity-hub",
+    "name": "Descope Agentic Identity Hub",
+    "category": "mcp_agent",
+    "vendor": "Descope",
+    "website": "https://www.descope.com/press-release/agentic-identity-hub",
+    "description": "Standards-based identity platform that lets AI agents and MCP servers exchange credentials with fine-grained, purpose-built policies.",
+    "tags": [
+      "identity",
+      "mcp"
+    ],
+    "sources": [
+      "https://www.descope.com/press-release/agentic-identity-hub"
+    ]
+  },
+  {
+    "id": "adept-act-1",
+    "name": "Adept ACT-1",
+    "category": "mcp_agent",
+    "vendor": "Adept",
+    "website": "https://www.adept.ai/blog/act-1",
+    "description": "Action Transformer model and agent stack that perceives user screens, composes multi-step plans, and executes UI interactions autonomously.",
+    "tags": [
+      "automation",
+      "agent"
+    ],
+    "sources": [
+      "https://www.adept.ai/blog/act-1"
+    ]
+  },
+  {
+    "id": "oracle-miracle-agent",
+    "name": "Oracle Miracle Agent",
+    "category": "mcp_agent",
+    "vendor": "Oracle",
+    "website": "https://agentlocker.ai/agent/miracle-agent",
+    "description": "AI agent inside Oracle Fusion Apps that automates finance, HR, supply chain, and CX processes while keeping context in Fusion Cloud.",
+    "tags": [
+      "erp",
+      "fusion"
+    ],
+    "sources": [
+      "https://agentlocker.ai/agent/miracle-agent"
+    ]
+  },
+  {
+    "id": "notion-agent",
+    "name": "Notion Agent",
+    "category": "mcp_agent",
+    "vendor": "Notion",
+    "website": "https://www.notion.com/releases/2025-09-18",
+    "description": "Notion 3.0 agent adds multi-step automation, memory-backed profiles, and MCP connectors that let the workspace act on behalf of users.",
+    "tags": [
+      "workspace",
+      "agent"
+    ],
+    "sources": [
+      "https://www.notion.com/releases/2025-09-18"
+    ]
+  },
+  {
+    "id": "chatdev",
+    "name": "ChatDev",
+    "category": "mcp_agent",
+    "vendor": "ChatDev",
+    "website": "https://chatdev.ai/",
+    "description": "Multi-agent software company simulation with CTO, programmer, tester, and ops agents that collaborate on product delivery.",
+    "tags": [
+      "software",
+      "multi_agent"
+    ],
+    "sources": [
+      "https://chatdev.ai/"
+    ]
+  },
+  {
+    "id": "superagent-safety",
+    "name": "Superagent Safety Agent",
+    "category": "mcp_agent",
+    "vendor": "Superagent AI",
+    "website": "https://www.superagent.sh/",
+    "description": "Runtime safety agent that detects prompt injections, redacts secrets, and stops unsafe tool calls before they reach downstream agents.",
+    "tags": [
+      "safety",
+      "mcp"
+    ],
+    "sources": [
+      "https://www.superagent.sh/"
+    ]
+  },
+  {
+    "id": "reactor-superagent",
+    "name": "REACTOR SuperAgent",
+    "category": "mcp_agent",
+    "vendor": "SuperAgent NG",
+    "website": "https://superagent.ng/",
+    "description": "AIOps platform that lets enterprises run conversational agent commands to monitor infrastructure, detect threats, and automate remediations.",
+    "tags": [
+      "itops",
+      "automation"
+    ],
+    "sources": [
+      "https://superagent.ng/"
+    ]
+  },
+  {
+    "id": "nova-act",
+    "name": "Nova Act",
+    "category": "mcp_agent",
+    "vendor": "Amazon AGI Labs",
+    "website": "https://nova.amazon.com/",
+    "description": "Nova Act model directly executes shopping, research, and web navigation tasks through a sandboxed browser in preview for developers.",
+    "tags": [
+      "shopping",
+      "browser"
+    ],
+    "sources": [
+      "https://www.theverge.com/news/639688/amazon-nova-act-ai-agent-web-browser"
+    ]
+  },
+  {
+    "id": "openai-personal-assistant",
+    "name": "OpenAI Personal Assistant",
+    "category": "mcp_agent",
+    "vendor": "OpenAI",
+    "website": "https://openai.com/",
+    "description": "ChatGPT agent that mixes research tools, a browser, and safety checks to control files, emails, and purchases on behalf of subscribers.",
+    "tags": [
+      "personal",
+      "autonomous"
+    ],
+    "sources": [
+      "https://www.theguardian.com/technology/2025/jul/17/openai-launches-personal-assistant-capable-of-controlling-files-and-web-browsers"
+    ]
+  }
+]

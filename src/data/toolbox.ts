@@ -5,8 +5,7 @@ export type ToolboxItem = {
   summaryKey: string;
   sceneKey: string;
   tagKeys: string[];
-  code: string;
-  language: string;
+  url: string;
 };
 
 export const aiToolCategories = [
@@ -25,15 +24,7 @@ export const aiTools: ToolboxItem[] = [
     summaryKey: 'toolbox.ai.tools.atlas.summary',
     sceneKey: 'toolbox.ai.tools.atlas.scene',
     tagKeys: ['tags.orchestration', 'tags.memory', 'tags.workflow'],
-    language: 'ts',
-    code: `import { AtlasAgent } from '@sidcloud/atlas';
-
-const agent = new AtlasAgent({
-  memory: 'vector',
-  tools: ['web3', 'calendar', 'code'],
-});
-
-await agent.run('Audit the token gate flow.');`,
+    url: 'https://example.com',
   },
   {
     id: 'lumen-rag',
@@ -42,13 +33,7 @@ await agent.run('Audit the token gate flow.');`,
     summaryKey: 'toolbox.ai.tools.lumen.summary',
     sceneKey: 'toolbox.ai.tools.lumen.scene',
     tagKeys: ['tags.rag', 'tags.vector', 'tags.context'],
-    language: 'ts',
-    code: `import { LumenStore } from '@sidcloud/lumen';
-
-const store = new LumenStore({ provider: 'qdrant' });
-await store.upsert('docs/vision.md');
-
-const answer = await store.query('What is our eval rubric?');`,
+    url: 'https://example.com',
   },
   {
     id: 'signal-call',
@@ -57,17 +42,7 @@ const answer = await store.query('What is our eval rubric?');`,
     summaryKey: 'toolbox.ai.tools.signal.summary',
     sceneKey: 'toolbox.ai.tools.signal.scene',
     tagKeys: ['tags.tooling', 'tags.routing', 'tags.runtime'],
-    language: 'ts',
-    code: `import { SignalBridge } from '@sidcloud/signal';
-
-const bridge = new SignalBridge();
-bridge.register('swapQuote', async (payload) => ({
-  route: 'TON-USDT',
-  eta: '12s',
-  payload,
-}));
-
-await bridge.call('swapQuote', { amount: 2500 });`,
+    url: 'https://example.com',
   },
   {
     id: 'pulse-eval',
@@ -76,13 +51,7 @@ await bridge.call('swapQuote', { amount: 2500 });`,
     summaryKey: 'toolbox.ai.tools.pulse.summary',
     sceneKey: 'toolbox.ai.tools.pulse.scene',
     tagKeys: ['tags.eval', 'tags.qa', 'tags.benchmark'],
-    language: 'ts',
-    code: `import { PulseEval } from '@sidcloud/pulse';
-
-const suite = new PulseEval({ rubric: 'agent-core-v2' });
-const report = await suite.run('./cases/latency.json');
-
-console.log(report.score);`,
+    url: 'https://example.com',
   },
   {
     id: 'drift-automation',
@@ -91,13 +60,7 @@ console.log(report.score);`,
     summaryKey: 'toolbox.ai.tools.drift.summary',
     sceneKey: 'toolbox.ai.tools.drift.scene',
     tagKeys: ['tags.automation', 'tags.ops', 'tags.monitoring'],
-    language: 'ts',
-    code: `import { DriftOps } from '@sidcloud/drift';
-
-const ops = new DriftOps();
-ops.on('alert', (signal) => console.log(signal));
-
-await ops.watch('agent-cpu', { threshold: 0.78 });`,
+    url: 'https://example.com',
   },
 ];
 
@@ -117,10 +80,7 @@ export const devTools: ToolboxItem[] = [
     summaryKey: 'toolbox.dev.tools.nova.summary',
     sceneKey: 'toolbox.dev.tools.nova.scene',
     tagKeys: ['tags.templates', 'tags.starter', 'tags.typescript'],
-    language: 'bash',
-    code: `npx @sidcloud/nova init web3-agent-lab
-cd web3-agent-lab
-pnpm dev`,
+    url: 'https://example.com',
   },
   {
     id: 'neon-cli',
@@ -129,9 +89,7 @@ pnpm dev`,
     summaryKey: 'toolbox.dev.tools.neoncli.summary',
     sceneKey: 'toolbox.dev.tools.neoncli.scene',
     tagKeys: ['tags.cli', 'tags.release', 'tags.multichain'],
-    language: 'bash',
-    code: `sidcloud ship --chain ton --env staging
-sidcloud status`,
+    url: 'https://example.com',
   },
   {
     id: 'pulse-deploy',
@@ -140,9 +98,7 @@ sidcloud status`,
     summaryKey: 'toolbox.dev.tools.pulsedeploy.summary',
     sceneKey: 'toolbox.dev.tools.pulsedeploy.scene',
     tagKeys: ['tags.deploy', 'tags.wallet', 'tags.guardrails'],
-    language: 'bash',
-    code: `sidcloud deploy contract --profile ton
-sidcloud deploy verify --report`,
+    url: 'https://example.com',
   },
   {
     id: 'auto-fleet',
@@ -151,15 +107,7 @@ sidcloud deploy verify --report`,
     summaryKey: 'toolbox.dev.tools.autofleet.summary',
     sceneKey: 'toolbox.dev.tools.autofleet.scene',
     tagKeys: ['tags.automation', 'tags.pipeline', 'tags.docs'],
-    language: 'yaml',
-    code: `name: agent-release
-on:
-  push:
-    branches: [main]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest`,
+    url: 'https://example.com',
   },
   {
     id: 'spectra-observe',
@@ -168,10 +116,6 @@ jobs:
     summaryKey: 'toolbox.dev.tools.spectra.summary',
     sceneKey: 'toolbox.dev.tools.spectra.scene',
     tagKeys: ['tags.observability', 'tags.tracing', 'tags.alerts'],
-    language: 'ts',
-    code: `import { Spectra } from '@sidcloud/spectra';
-
-const watcher = new Spectra();
-watcher.track('latency', { target: 320 });`,
+    url: 'https://example.com',
   },
 ];

@@ -65,12 +65,14 @@ const Home = () => {
               >
                 {t('hero.ctaDev')}
               </Link>
-              <Link
-                to="/#projects"
+              <a
+                href="https://github.com/carzygod"
+                target="_blank"
+                rel="noreferrer"
                 className="rounded-full border border-white/20 bg-white/5 px-6 py-3 text-xs uppercase tracking-[0.3em] text-white/70 transition hover:border-neon-lime/50 hover:text-neon-lime"
               >
                 {t('hero.ctaProjects')}
-              </Link>
+              </a>
             </div>
           </div>
           <div className="grid gap-6">

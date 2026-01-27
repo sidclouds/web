@@ -61,9 +61,9 @@
         search: 'Search tools',
         filterAll: 'All',
         scene: 'Scenario',
-        snippet: 'Example snippet',
         copy: 'Copy',
         copied: 'Copied',
+        visit: 'Visit',
         ai: {
           title: 'AI Toolbox',
           subtitle: 'Agent frameworks, RAG, tool calling, evals, and automation kits.',
@@ -180,29 +180,29 @@
         ],
       },
       projects: {
-        flexibleERC20: {
-          name: 'FlexibleERC20',
-          description: 'FlexibleERC20 (pinned).',
-        },
         wechatMpc: {
           name: 'Wechat-Alipay-MPC-Wallet-Solution',
           description: '〖毕设〗version的基于wechat/alipay的MPC 多链钱包解决方案',
         },
-        fskinfun: {
-          name: 'FskinFun / evm-contract',
-          description: 'The token and oracle contract in evm',
-        },
-        funproxy: {
-          name: 'funproxy/.github',
-          description: 'profile',
-        },
-        tonspay: {
-          name: 'Tonspay/.github',
-          description: 'Read me !',
-        },
         tgwc: {
           name: 'Tonspay/TGWC',
           description: 'Telegram Wallet Connector',
+        },
+        egba: {
+          name: 'eGBA',
+          description: 'Chrom extension GBA Player',
+        },
+        nostrlink: {
+          name: 'NostrLink',
+          description: 'A light nostr assert community client.',
+        },
+        lastpush: {
+          name: 'lastpush/dashboard',
+          description: 'Lastpush dashboard. React + Vite.',
+        },
+        hotspot: {
+          name: 'hotspot-app',
+          description: 'Helium hotspot app for iOS and Android.',
         },
       },
       updates: [
@@ -259,6 +259,14 @@
         observability: 'Observability',
         tracing: 'Tracing',
         alerts: 'Alerts',
+        chrome: 'Chrome',
+        extension: 'Extension',
+        nostr: 'Nostr',
+        community: 'Community',
+        react: 'React',
+        dashboard: 'Dashboard',
+        mobile: 'Mobile',
+        ios: 'iOS',
       },
       visuals: {
         hero: 'Soft neon heroine portrait',
@@ -355,9 +363,9 @@
         search: '搜索工具',
         filterAll: '全部',
         scene: '适用场景',
-        snippet: '示例代码',
         copy: '复制',
         copied: '已复制',
+        visit: '点击访问',
         ai: {
           title: 'AI 工具箱',
           subtitle: 'Agent 框架、RAG、工具调用、评测与自动化。',
@@ -473,29 +481,29 @@
         ],
       },
       projects: {
-        flexibleERC20: {
-          name: 'FlexibleERC20',
-          description: 'FlexibleERC20（置顶）',
-        },
         wechatMpc: {
           name: 'Wechat-Alipay-MPC-Wallet-Solution',
           description: '〖毕设〗version的基于wechat/alipay的MPC 多链钱包解决方案',
         },
-        fskinfun: {
-          name: 'FskinFun / evm-contract',
-          description: 'The token and oracle contract in evm',
-        },
-        funproxy: {
-          name: 'funproxy/.github',
-          description: 'profile',
-        },
-        tonspay: {
-          name: 'Tonspay/.github',
-          description: 'Read me !',
-        },
         tgwc: {
           name: 'Tonspay/TGWC',
           description: 'Telegram Wallet Connector',
+        },
+        egba: {
+          name: 'eGBA',
+          description: 'Chrom extension GBA Player',
+        },
+        nostrlink: {
+          name: 'NostrLink',
+          description: 'A light nostr assert community client.',
+        },
+        lastpush: {
+          name: 'lastpush/dashboard',
+          description: 'Lastpush dashboard. React + Vite.',
+        },
+        hotspot: {
+          name: 'hotspot-app',
+          description: 'Helium hotspot app for iOS and Android',
         },
       },
       updates: [
@@ -552,6 +560,14 @@
         observability: 'Observability',
         tracing: 'Tracing',
         alerts: 'Alerts',
+        chrome: 'Chrome',
+        extension: 'Extension',
+        nostr: 'Nostr',
+        community: '社区',
+        react: 'React',
+        dashboard: '仪表盘',
+        mobile: '移动端',
+        ios: 'iOS',
       },
       visuals: {
         hero: '柔光霓虹主视觉',

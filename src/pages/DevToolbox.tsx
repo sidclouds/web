@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Seo from '@/components/Seo';
 import SectionHeading from '@/components/SectionHeading';
-import Toast from '@/components/Toast';
 import ToolCard from '@/components/ToolCard';
 import { devToolCategories, devTools } from '@/data/toolbox';
 import { imageAssets } from '@/data/assets';
@@ -11,7 +10,6 @@ const DevToolbox = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [query, setQuery] = useState('');
-  const [toast, setToast] = useState<string | null>(null);
 
   const filteredTools = useMemo(() => {
     return devTools.filter((tool) => {
@@ -30,16 +28,6 @@ const DevToolbox = () => {
       return matchesCategory && matchesQuery;
     });
   }, [activeCategory, query, t]);
-
-  const handleCopy = async (code: string) => {
-    try {
-      await navigator.clipboard.writeText(code);
-      setToast(t('toolbox.copied'));
-    } catch {
-      setToast(t('toolbox.copied'));
-    }
-    setTimeout(() => setToast(null), 1600);
-  };
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-12">
@@ -97,11 +85,16 @@ const DevToolbox = () => {
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         {filteredTools.map((tool) => (
-          <ToolCard key={tool.id} {...tool} onCopy={handleCopy} />
+          <ToolCard
+            key={tool.id}
+            name={t(tool.nameKey)}
+            summary={t(tool.summaryKey)}
+            scene={t(tool.sceneKey)}
+            tags={tool.tagKeys.map((tag) => t(tag))}
+            url={tool.url}
+          />
         ))}
       </div>
-
-      <Toast message={toast} />
     </section>
   );
 };

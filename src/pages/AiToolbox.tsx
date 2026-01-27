@@ -1,45 +1,82 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Seo from '@/components/Seo';
 import SectionHeading from '@/components/SectionHeading';
-import Toast from '@/components/Toast';
 import ToolCard from '@/components/ToolCard';
-import { aiToolCategories, aiTools } from '@/data/toolbox';
 import { imageAssets } from '@/data/assets';
+
+type RemoteTool = {
+  id: string;
+  name: string;
+  category?: string;
+  vendor?: string;
+  website?: string;
+  description?: string;
+  tags?: string[];
+  sources?: string[];
+};
 
 const AiToolbox = () => {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [query, setQuery] = useState('');
-  const [toast, setToast] = useState<string | null>(null);
+  const [tools, setTools] = useState<RemoteTool[]>([]);
+
+  useEffect(() => {
+    const fetchTools = async () => {
+      try {
+        const remote = await fetch('https://carzygod.github.io/AI-TOOL-BOX/main.json');
+        if (remote.ok) {
+          const data = (await remote.json()) as RemoteTool[];
+          setTools(Array.isArray(data) ? data : []);
+          return;
+        }
+      } catch {
+        // fall back below
+      }
+      try {
+        const local = await fetch('/main.json');
+        if (local.ok) {
+          const data = (await local.json()) as RemoteTool[];
+          setTools(Array.isArray(data) ? data : []);
+        }
+      } catch {
+        setTools([]);
+      }
+    };
+
+    fetchTools();
+  }, []);
 
   const filteredTools = useMemo(() => {
-    return aiTools.filter((tool) => {
-      const matchesCategory =
-        activeCategory === 'all' || tool.categoryKey === activeCategory;
-      const content =
-        [
-          t(tool.nameKey),
-          t(tool.summaryKey),
-          t(tool.sceneKey),
-          ...tool.tagKeys.map((tag) => t(tag)),
-        ]
-          .join(' ')
-          .toLowerCase();
+    return tools.filter((tool) => {
+      const category = tool.category || 'Other';
+      const matchesCategory = activeCategory === 'all' || category === activeCategory;
+      const content = [
+        tool.name,
+        tool.description,
+        tool.vendor,
+        tool.category,
+        ...(tool.tags || []),
+      ]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
       const matchesQuery = content.includes(query.toLowerCase());
       return matchesCategory && matchesQuery;
     });
-  }, [activeCategory, query, t]);
+  }, [activeCategory, query, tools]);
 
-  const handleCopy = async (code: string) => {
-    try {
-      await navigator.clipboard.writeText(code);
-      setToast(t('toolbox.copied'));
-    } catch {
-      setToast(t('toolbox.copied'));
-    }
-    setTimeout(() => setToast(null), 1600);
-  };
+  const categories = useMemo(() => {
+    const unique = Array.from(
+      new Set(
+        tools
+          .map((tool) => tool.category || 'Other')
+          .filter(Boolean),
+      ),
+    );
+    return unique;
+  }, [tools]);
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-12">
@@ -72,7 +109,7 @@ const AiToolbox = () => {
           >
             {t('toolbox.filterAll')}
           </button>
-          {aiToolCategories.map((category) => (
+          {categories.map((category) => (
             <button
               key={category}
               type="button"
@@ -83,7 +120,7 @@ const AiToolbox = () => {
                   : 'border-white/20 text-white/60 hover:border-neon-cyan/40'
               }`}
             >
-              {t(category)}
+              {category}
             </button>
           ))}
         </div>
@@ -97,11 +134,16 @@ const AiToolbox = () => {
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         {filteredTools.map((tool) => (
-          <ToolCard key={tool.id} {...tool} onCopy={handleCopy} />
+          <ToolCard
+            key={tool.id}
+            name={tool.name}
+            summary={tool.description || ''}
+            scene={tool.vendor || tool.category || 'AI Tool'}
+            tags={tool.tags || []}
+            url={tool.website || tool.sources?.[0] || 'https://example.com'}
+          />
         ))}
       </div>
-
-      <Toast message={toast} />
     </section>
   );
 };
