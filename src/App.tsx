@@ -5,6 +5,7 @@ import PageTransition from '@/components/PageTransition';
 import Home from '@/pages/Home';
 import AiToolbox from '@/pages/AiToolbox';
 import DevToolbox from '@/pages/DevToolbox';
+import MyBox from '@/pages/MyBox';
 import NotFound from '@/pages/NotFound';
 
 const App = () => {
@@ -19,6 +20,14 @@ const App = () => {
             element={
               <PageTransition>
                 <Home />
+              </PageTransition>
+            }
+          />
+          <Route
+            path="mybox"
+            element={
+              <PageTransition>
+                <MyBox />
               </PageTransition>
             }
           />

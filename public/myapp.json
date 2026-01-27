@@ -1,0 +1,22 @@
+﻿[
+  {
+    "id": "vmind",
+    "name": "Vmind",
+    "category": "vibe_coding",
+    "vendor": "MWM",
+    "website": "https://vmind.mwm.mom/",
+    "description": "Gemini-3-powered mind-map studio that asks the model to emit a JSON tree with at least 15 nodes and 3+ levels, then renders the topology with JointJS so prompts become shareable diagrams.",
+    "tags": ["mindmap", "agent", "design"],
+    "sources": ["https://vmind.mwm.mom/"]
+  },
+  {
+    "id": "lastpush",
+    "name": "LastPush",
+    "category": "vibe_coding",
+    "vendor": "LastPush",
+    "website": "https://lastpush.xyz/",
+    "description": "Dev-first deployment cockpit that pairs site/domain/billing navigation with wallet balance, activity logs, and deploy buttons so developers ship updates without leaving the dashboard.",
+    "tags": ["deployment", "platform", "dev_tools"],
+    "sources": ["https://lastpush.xyz/"]
+  }
+]

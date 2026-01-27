@@ -4,6 +4,7 @@
       nav: {
         home: 'Home',
         aiToolbox: 'AI Toolbox',
+        mybox: 'My box',
         devToolbox: 'Dev Toolbox',
       },
       footer: {
@@ -101,6 +102,10 @@
               scene: 'Detect drift and push response playbooks.',
             },
           },
+        },
+        mybox: {
+          title: 'My Box',
+          subtitle: 'Favorcoin experiments and personal utilities.',
         },
         dev: {
           title: 'Dev Toolbox',
@@ -290,6 +295,10 @@
           title: 'Dev Toolbox — sidcloud Studio',
           description: 'Developer tooling for templates, CLI, deploy, and observability.',
         },
+        mybox: {
+          title: 'My Box — sidcloud Studio',
+          description: 'Personal builds and experiments in one place.',
+        },
         notFound: {
           title: 'Signal Lost — sidcloud Studio',
           description: 'The route you requested does not exist.',
@@ -307,6 +316,7 @@
       nav: {
         home: '首页',
         aiToolbox: 'AI 工具箱',
+        mybox: '俺做的',
         devToolbox: 'Dev 工具箱',
       },
       footer: {
@@ -403,6 +413,10 @@
               scene: '检测漂移并触发响应流程。',
             },
           },
+        },
+        mybox: {
+          title: '俺做的',
+          subtitle: 'favorcoin 的私房实验和自用工具。',
         },
         dev: {
           title: 'Dev 工具箱',
@@ -590,6 +604,10 @@
         dev: {
           title: 'Dev 工具箱 — sidcloud Studio',
           description: '模板、CLI、部署自动化与观测栈。',
+        },
+        mybox: {
+          title: '俺做的 — sidcloud Studio',
+          description: '个人实验和熟练工具集合。',
         },
         notFound: {
           title: '信号丢失 — sidcloud Studio',
