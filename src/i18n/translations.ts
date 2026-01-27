@@ -416,7 +416,7 @@
         },
         mybox: {
           title: '俺做的',
-          subtitle: 'favorcoin 的私房实验和自用工具。',
+          subtitle: '开发中的项目和自研工程',
         },
         dev: {
           title: 'Dev 工具箱',

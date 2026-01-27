@@ -79,3 +79,25 @@ body {
   object-fit: cover;
   display: block;
 }
+
+#live2d-widget,
+.live2d-widget {
+  z-index: 2147483647 !important;
+  pointer-events: auto;
+}
+
+.live2d-widget,
+.live2d-widget iframe {
+  position: fixed !important;
+  bottom: 5.5rem !important;
+  left: min(1.5rem, env(safe-area-inset-left, 1rem)) !important;
+  mix-blend-mode: screen;
+  transform: none !important;
+}
+
+@media (max-width: 768px) {
+  .live2d-widget,
+  #live2d-widget {
+    display: none !important;
+  }
+}

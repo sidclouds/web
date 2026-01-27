@@ -24,6 +24,18 @@ const Live2DWidget = () => {
           logLevel: 'warn',
         });
         window.__live2dWidgetInited = true;
+        const applyStyles = () => {
+          const widget = document.getElementById('live2d-widget');
+          if (!widget) return;
+          widget.style.setProperty('z-index', '2147483647', 'important');
+          widget.style.setProperty('bottom', '5.5rem', 'important');
+          widget.style.setProperty('left', '1.25rem', 'important');
+          widget.style.setProperty('pointer-events', 'auto', 'important');
+          widget.style.setProperty('position', 'fixed', 'important');
+        };
+        applyStyles();
+        const observer = new MutationObserver(() => applyStyles());
+        observer.observe(document.body, { childList: true, subtree: true });
       }
     };
 
