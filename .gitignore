@@ -33,3 +33,4 @@ Thumbs.db
 
 # Live2D widget local
 live2d-widget/
+.vercel
