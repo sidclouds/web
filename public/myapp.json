@@ -94,5 +94,205 @@
     "sources": [
       "https://degenskill.fun/"
     ]
+  },
+  {
+    "id": "wechat-extension-bot-sdk",
+    "name": "Weixin Bot SDK",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://www.npmjs.com/package/weixin-claw-bot-sdk",
+    "description": "TypeScript SDK for building WeChat bots on top of the iLink bot HTTP API, with QR login, session persistence, polling, event handlers, and media upload or download helpers.",
+    "tags": [
+      "wechat",
+      "sdk",
+      "bot"
+    ],
+    "sources": [
+      "https://github.com/carzygod/wechat-extension-bot-sdk",
+      "https://www.npmjs.com/package/weixin-claw-bot-sdk"
+    ]
+  },
+  {
+    "id": "picox",
+    "name": "picox",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://picox.sid.mom/",
+    "description": "Electron desktop control center for running multiple picox agents with guided setup, quick or full config editing, live logs, backups, and tray-based background lifecycle management.",
+    "tags": [
+      "desktop",
+      "agents",
+      "electron"
+    ],
+    "sources": [
+      "https://github.com/carzygod/picox",
+      "https://picox.sid.mom/"
+    ]
+  },
+  {
+    "id": "seefactory",
+    "name": "SeeFactory",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://seefactory.mwm.mom/",
+    "description": "AI movie studio for turning ideas into scripts, visual storyboards, scene images, and video continuations, with dedicated modes for frame planning, clip extension, and freeform creation.",
+    "tags": [
+      "video",
+      "storyboard",
+      "ai"
+    ],
+    "sources": [
+      "https://github.com/carzygod/seeFactory",
+      "https://seefactory.mwm.mom/"
+    ]
+  },
+  {
+    "id": "claw2dx",
+    "name": "claw2dx",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://github.com/carzygod/claw2dx",
+    "description": "Chrome extension that overlays Live2D characters on X.com, exposes a popup control panel, and accepts WebSocket commands for model switching, motions, expressions, and message bubbles.",
+    "tags": [
+      "live2d",
+      "twitter",
+      "extension"
+    ],
+    "sources": [
+      "https://github.com/carzygod/claw2dx"
+    ]
+  },
+  {
+    "id": "solcraft",
+    "name": "Solcraft",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://solcraft.mwm.mom",
+    "description": "Solana-focused venture architect that generates dapp ideas, checks for collisions, builds tokenomics and technical blueprints, and carries projects from prompt to launch-ready token flows.",
+    "tags": [
+      "solana",
+      "ai",
+      "launchpad"
+    ],
+    "sources": [
+      "https://github.com/carzygod/solcraft",
+      "https://solcraft.mwm.mom"
+    ]
+  },
+  {
+    "id": "justclaw-dashboard",
+    "name": "JustClaw",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://github.com/carzygod/JUSTCLAW-DASHBOARD",
+    "description": "One-tap deployment dashboard for Clawbots with a polished web UI for bot management, runtime monitoring, secure credentials, and mock multi-chain funding flows.",
+    "tags": [
+      "dashboard",
+      "deployment",
+      "bots"
+    ],
+    "sources": [
+      "https://github.com/carzygod/JUSTCLAW-DASHBOARD"
+    ]
+  },
+  {
+    "id": "nadlabs",
+    "name": "NadLabs",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://nadlabs.fun/",
+    "description": "Monad-native AI creative studio that generates launchable concepts, verifies differentiation, drafts contracts and frontend prompts, and prepares Nad.fun token launch payloads.",
+    "tags": [
+      "monad",
+      "ai",
+      "launchpad"
+    ],
+    "sources": [
+      "https://github.com/carzygod/NadLabs",
+      "https://nadlabs.fun/"
+    ]
+  },
+  {
+    "id": "xminer",
+    "name": "XMiner",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://github.com/carzygod/Xminer",
+    "description": "Chrome extension for X and Twitter that auto-scrolls feeds, extracts visible tweets into structured JSON, filters by media type, and optionally streams new items to a webhook queue.",
+    "tags": [
+      "twitter",
+      "scraping",
+      "extension"
+    ],
+    "sources": [
+      "https://github.com/carzygod/Xminer"
+    ]
+  },
+  {
+    "id": "4craft",
+    "name": "4craft",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://4craft.fun/",
+    "description": "BSC and four.meme oriented AI builder that takes users from idea generation to contract synthesis, frontend prompting, and token launch preparation in one pipeline.",
+    "tags": [
+      "bsc",
+      "ai",
+      "launchpad"
+    ],
+    "sources": [
+      "https://github.com/carzygod/4craft",
+      "https://4craft.fun/"
+    ]
+  },
+  {
+    "id": "clawdpack",
+    "name": "ClawdPack",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://github.com/carzygod/ClawdPack",
+    "description": "Permissioned Solana wallet for AI agents, offering encrypted local vault storage, multi-account derivation, and secure transaction signing for SOL and SPL assets.",
+    "tags": [
+      "solana",
+      "wallet",
+      "agents"
+    ],
+    "sources": [
+      "https://github.com/carzygod/ClawdPack"
+    ]
+  },
+  {
+    "id": "mailawd",
+    "name": "mailawd",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://mailawd.mwm.mom",
+    "description": "Minimal landing site for a Mail.tm based temporary email skill, built to present agent-friendly mailbox service access and distribute the downloadable skill definition.",
+    "tags": [
+      "email",
+      "skill",
+      "landing"
+    ],
+    "sources": [
+      "https://github.com/carzygod/mailawd",
+      "https://mailawd.mwm.mom"
+    ]
+  },
+  {
+    "id": "moltindex",
+    "name": "Moltindex",
+    "category": "vibe_coding",
+    "vendor": "carzygod",
+    "website": "https://moltindex.mwm.mom",
+    "description": "Agent tool index platform with a React front end, Express and Mongo backend, and automated ingestion workflow that turns structured posts into searchable catalog entries.",
+    "tags": [
+      "indexer",
+      "agents",
+      "platform"
+    ],
+    "sources": [
+      "https://github.com/carzygod/moltindex",
+      "https://moltindex.mwm.mom"
+    ]
   }
 ]
