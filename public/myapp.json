@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "vmind",
     "name": "Vmind",
@@ -6,8 +6,14 @@
     "vendor": "MWM",
     "website": "https://vmind.mwm.mom/",
     "description": "Gemini-3-powered mind-map studio that asks the model to emit a JSON tree with at least 15 nodes and 3+ levels, then renders the topology with JointJS so prompts become shareable diagrams.",
-    "tags": ["mindmap", "agent", "design"],
-    "sources": ["https://vmind.mwm.mom/"]
+    "tags": [
+      "mindmap",
+      "agent",
+      "design"
+    ],
+    "sources": [
+      "https://vmind.mwm.mom/"
+    ]
   },
   {
     "id": "lastpush",
@@ -16,7 +22,77 @@
     "vendor": "LastPush",
     "website": "https://lastpush.xyz/",
     "description": "Dev-first deployment cockpit that pairs site/domain/billing navigation with wallet balance, activity logs, and deploy buttons so developers ship updates without leaving the dashboard.",
-    "tags": ["deployment", "platform", "dev_tools"],
-    "sources": ["https://lastpush.xyz/"]
+    "tags": [
+      "deployment",
+      "platform",
+      "dev_tools"
+    ],
+    "sources": [
+      "https://lastpush.xyz/"
+    ]
+  },
+  {
+    "id": "egba",
+    "name": "eGBA Library",
+    "category": "vibe_coding",
+    "vendor": "eGBA",
+    "website": "https://egba.mom/",
+    "description": "Chrome-hosted eGBA Library exposes a lightweight EmulatorJS-based GBA emulator with a GitHub download button, localStorage-backed SRAM saves, and feature/installation/structure sections that guide you through loading ROMs and using the embedded controls.",
+    "tags": [
+      "emulator",
+      "chrome",
+      "gaming"
+    ],
+    "sources": [
+      "https://egba.mom/"
+    ]
+  },
+  {
+    "id": "nostrlink",
+    "name": "NostrLink",
+    "category": "vibe_coding",
+    "vendor": "NostrLink",
+    "website": "https://nostrlink.xyz/",
+    "description": "Secure decentralized messaging front end built with nostr-tools; the UI lets you generate or paste a nsec key, then handle chats, polls, videos, and relay lists across Nostr event types with a minimalist dashboard.",
+    "tags": [
+      "nostr",
+      "messaging",
+      "decentralized"
+    ],
+    "sources": [
+      "https://nostrlink.xyz/"
+    ]
+  },
+  {
+    "id": "xer",
+    "name": "xer",
+    "category": "vibe_coding",
+    "vendor": "xer",
+    "website": "https://xer.mwm.mom/",
+    "description": "Open-source Chrome extension copilot for X (Twitter) that collects timeline posts, drafts replies, suggests interactions, and ships built-in risk control plus local privacy analysis so you stay in control.",
+    "tags": [
+      "copilot",
+      "twitter",
+      "extension"
+    ],
+    "sources": [
+      "https://xer.mwm.mom/"
+    ]
+  },
+  {
+    "id": "degenskill",
+    "name": "Degenskills",
+    "category": "vibe_coding",
+    "vendor": "Degenskills",
+    "website": "https://degenskill.fun/",
+    "description": "Crypto venture architect workspace that runs targeted or chaos agentic prompts against Gemini models to mint wild Web3 startup ideas, verify viability, and build tokenomic/roadmap/tech blueprints with a forge UI.",
+    "tags": [
+      "crypto",
+      "agent",
+      "blueprint"
+    ],
+    "sources": [
+      "https://degenskill.fun/"
+    ]
   }
 ]

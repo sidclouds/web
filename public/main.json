@@ -559,6 +559,70 @@
     ]
   },
   {
+    "id": "vmind",
+    "name": "Vmind",
+    "category": "vibe_coding",
+    "vendor": "MWM",
+    "website": "https://vmind.mwm.mom/",
+    "description": "Gemini-3-powered mind-map studio that asks the model to emit a JSON tree with at least 15 nodes and 3+ levels, then renders the topology with JointJS so prompts become shareable diagrams.",
+    "tags": [
+      "mindmap",
+      "agent",
+      "design"
+    ],
+    "sources": [
+      "https://vmind.mwm.mom/"
+    ]
+  },
+  {
+    "id": "lastpush",
+    "name": "LastPush",
+    "category": "vibe_coding",
+    "vendor": "LastPush",
+    "website": "https://lastpush.xyz/",
+    "description": "Dev-first deployment cockpit that pairs site/domain/billing navigation with wallet balance, activity logs, and deploy buttons so developers ship updates without leaving the dashboard.",
+    "tags": [
+      "deployment",
+      "platform",
+      "dev_tools"
+    ],
+    "sources": [
+      "https://lastpush.xyz/"
+    ]
+  },
+  {
+    "id": "xer",
+    "name": "xer",
+    "category": "vibe_coding",
+    "vendor": "xer",
+    "website": "https://xer.mwm.mom/",
+    "description": "Open-source Chrome extension copilot for X (Twitter) that collects timeline posts, drafts replies, suggests interactions, and ships built-in risk control plus local privacy analysis so users stay in control.",
+    "tags": [
+      "copilot",
+      "twitter",
+      "extension"
+    ],
+    "sources": [
+      "https://xer.mwm.mom/"
+    ]
+  },
+  {
+    "id": "degenskill",
+    "name": "Degenskills",
+    "category": "vibe_coding",
+    "vendor": "Degenskills",
+    "website": "https://degenskill.fun/",
+    "description": "Crypto venture architect workspace that runs targeted or chaos agentic prompts against Gemini models to mint wild Web3 startup ideas, verify viability, and build tokenomic/roadmap/tech blueprints with a forge UI.",
+    "tags": [
+      "crypto",
+      "agent",
+      "blueprint"
+    ],
+    "sources": [
+      "https://degenskill.fun/"
+    ]
+  },
+  {
     "id": "windsurf",
     "name": "Windsurf",
     "category": "mcp_agent",
