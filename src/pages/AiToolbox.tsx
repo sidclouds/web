@@ -25,24 +25,17 @@ const AiToolbox = () => {
   useEffect(() => {
     const fetchTools = async () => {
       try {
-        const remote = await fetch('https://carzygod.github.io/AI-TOOL-BOX/main.json');
-        if (remote.ok) {
-          const data = (await remote.json()) as RemoteTool[];
-          setTools(Array.isArray(data) ? data : []);
-          return;
-        }
-      } catch {
-        // fall back below
-      }
-      try {
         const local = await fetch('/main.json');
         if (local.ok) {
           const data = (await local.json()) as RemoteTool[];
           setTools(Array.isArray(data) ? data : []);
+          return;
         }
       } catch {
-        setTools([]);
+        // fall through to empty state
       }
+
+      setTools([]);
     };
 
     fetchTools();

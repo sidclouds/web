@@ -22,31 +22,20 @@ const MyBox = () => {
 
   useEffect(() => {
     const load = async () => {
-      const remoteUrl = 'https://carzygod.github.io/AI-TOOL-BOX/myapp.json';
-      try {
-        const res = await fetch(remoteUrl);
-        if (res.ok) {
-          const payload = (await res.json()) as RemoteTool[];
-          if (Array.isArray(payload)) {
-            setTools(payload);
-            return;
-          }
-        }
-      } catch {
-        // ignore
-      }
-
       try {
         const local = await fetch('/myapp.json');
         if (local.ok) {
           const payload = (await local.json()) as RemoteTool[];
           if (Array.isArray(payload)) {
             setTools(payload);
+            return;
           }
         }
       } catch {
-        setTools([]);
+        // fall through to empty state
       }
+
+      setTools([]);
     };
 
     load();
