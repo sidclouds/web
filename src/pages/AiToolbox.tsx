@@ -4,30 +4,26 @@ import Seo from '@/components/Seo';
 import SectionHeading from '@/components/SectionHeading';
 import ToolCard from '@/components/ToolCard';
 import { imageAssets } from '@/data/assets';
-
-type RemoteTool = {
-  id: string;
-  name: string;
-  category?: string;
-  vendor?: string;
-  website?: string;
-  description?: string;
-  tags?: string[];
-  sources?: string[];
-};
+import {
+  getCategoryId,
+  getCategoryLabel,
+  getLocalizedText,
+  getTagLabel,
+  type LocalizedTool,
+} from '@/lib/localizedToolbox';
 
 const AiToolbox = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [query, setQuery] = useState('');
-  const [tools, setTools] = useState<RemoteTool[]>([]);
+  const [tools, setTools] = useState<LocalizedTool[]>([]);
 
   useEffect(() => {
     const fetchTools = async () => {
       try {
         const local = await fetch('/main.json');
         if (local.ok) {
-          const data = (await local.json()) as RemoteTool[];
+          const data = (await local.json()) as LocalizedTool[];
           setTools(Array.isArray(data) ? data : []);
           return;
         }
@@ -43,14 +39,14 @@ const AiToolbox = () => {
 
   const filteredTools = useMemo(() => {
     return tools.filter((tool) => {
-      const category = tool.category || 'Other';
-      const matchesCategory = activeCategory === 'all' || category === activeCategory;
+      const categoryId = getCategoryId(tool.category);
+      const matchesCategory = activeCategory === 'all' || categoryId === activeCategory;
       const content = [
-        tool.name,
-        tool.description,
-        tool.vendor,
-        tool.category,
-        ...(tool.tags || []),
+        getLocalizedText(tool.name, i18n.language),
+        getLocalizedText(tool.description, i18n.language),
+        getLocalizedText(tool.vendor, i18n.language),
+        getCategoryLabel(tool.category, i18n.language),
+        ...(tool.tags || []).map((tag) => getTagLabel(tag, i18n.language)),
       ]
         .filter(Boolean)
         .join(' ')
@@ -58,18 +54,15 @@ const AiToolbox = () => {
       const matchesQuery = content.includes(query.toLowerCase());
       return matchesCategory && matchesQuery;
     });
-  }, [activeCategory, query, tools]);
+  }, [activeCategory, i18n.language, query, tools]);
 
   const categories = useMemo(() => {
-    const unique = Array.from(
-      new Set(
-        tools
-          .map((tool) => tool.category || 'Other')
-          .filter(Boolean),
-      ),
-    );
-    return unique;
-  }, [tools]);
+    const unique = new Map<string, string>();
+    tools.forEach((tool) => {
+      unique.set(getCategoryId(tool.category), getCategoryLabel(tool.category, i18n.language));
+    });
+    return Array.from(unique.entries()).map(([id, label]) => ({ id, label }));
+  }, [i18n.language, tools]);
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-12">
@@ -104,16 +97,16 @@ const AiToolbox = () => {
           </button>
           {categories.map((category) => (
             <button
-              key={category}
+              key={category.id}
               type="button"
-              onClick={() => setActiveCategory(category)}
+              onClick={() => setActiveCategory(category.id)}
               className={`rounded-full border px-4 py-2 text-xs uppercase tracking-[0.2em] transition ${
-                activeCategory === category
+                activeCategory === category.id
                   ? 'border-neon-cyan/60 text-neon-cyan'
                   : 'border-white/20 text-white/60 hover:border-neon-cyan/40'
               }`}
             >
-              {category}
+              {category.label}
             </button>
           ))}
         </div>
@@ -129,10 +122,11 @@ const AiToolbox = () => {
         {filteredTools.map((tool) => (
           <ToolCard
             key={tool.id}
-            name={tool.name}
-            summary={tool.description || ''}
-            scene={tool.vendor || tool.category || 'AI Tool'}
-            tags={tool.tags || []}
+            name={getLocalizedText(tool.name, i18n.language)}
+            summary={getLocalizedText(tool.description, i18n.language)}
+            category={getCategoryLabel(tool.category, i18n.language)}
+            vendor={getLocalizedText(tool.vendor, i18n.language)}
+            tags={(tool.tags || []).map((tag) => getTagLabel(tag, i18n.language))}
             url={tool.website || tool.sources?.[0] || 'https://example.com'}
           />
         ))}

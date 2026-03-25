@@ -1,15 +1,48 @@
 [
   {
     "id": "vmind",
-    "name": "Vmind",
-    "category": "vibe_coding",
-    "vendor": "MWM",
+    "name": {
+      "en-US": "Vmind",
+      "zh-CN": "Vmind"
+    },
+    "category": {
+      "id": "creative_ai",
+      "label": {
+        "en-US": "Creative AI Studio",
+        "zh-CN": "创意 AI 工作室"
+      }
+    },
+    "vendor": {
+      "en-US": "MWM",
+      "zh-CN": "MWM"
+    },
     "website": "https://vmind.mwm.mom/",
-    "description": "Gemini-3-powered mind-map studio that asks the model to emit a JSON tree with at least 15 nodes and 3+ levels, then renders the topology with JointJS so prompts become shareable diagrams.",
+    "description": {
+      "en-US": "Mind-map studio that uses Gemini-driven structured generation to turn prompts into deep node trees and shareable visual diagrams.",
+      "zh-CN": "基于 Gemini 的思维导图工作室，可把提示词生成多层节点树并渲染成可分享的可视化图谱。"
+    },
     "tags": [
-      "mindmap",
-      "agent",
-      "design"
+      {
+        "id": "mindmap",
+        "label": {
+          "en-US": "Mind Map",
+          "zh-CN": "思维导图"
+        }
+      },
+      {
+        "id": "agent",
+        "label": {
+          "en-US": "Agent",
+          "zh-CN": "智能体"
+        }
+      },
+      {
+        "id": "visualization",
+        "label": {
+          "en-US": "Visualization",
+          "zh-CN": "可视化"
+        }
+      }
     ],
     "sources": [
       "https://vmind.mwm.mom/"
@@ -17,15 +50,48 @@
   },
   {
     "id": "lastpush",
-    "name": "LastPush",
-    "category": "vibe_coding",
-    "vendor": "LastPush",
+    "name": {
+      "en-US": "LastPush",
+      "zh-CN": "LastPush"
+    },
+    "category": {
+      "id": "devops_platform",
+      "label": {
+        "en-US": "DevOps Platform",
+        "zh-CN": "DevOps 平台"
+      }
+    },
+    "vendor": {
+      "en-US": "LastPush",
+      "zh-CN": "LastPush"
+    },
     "website": "https://lastpush.xyz/",
-    "description": "Dev-first deployment cockpit that pairs site/domain/billing navigation with wallet balance, activity logs, and deploy buttons so developers ship updates without leaving the dashboard.",
+    "description": {
+      "en-US": "Deployment cockpit for developers that combines site management, billing, wallet status, activity logs, and release actions in one dashboard.",
+      "zh-CN": "面向开发者的部署驾驶舱，把站点管理、计费、钱包状态、活动日志和发布操作整合到同一个面板中。"
+    },
     "tags": [
-      "deployment",
-      "platform",
-      "dev_tools"
+      {
+        "id": "deployment",
+        "label": {
+          "en-US": "Deployment",
+          "zh-CN": "部署"
+        }
+      },
+      {
+        "id": "dashboard",
+        "label": {
+          "en-US": "Dashboard",
+          "zh-CN": "仪表盘"
+        }
+      },
+      {
+        "id": "platform",
+        "label": {
+          "en-US": "Platform",
+          "zh-CN": "平台"
+        }
+      }
     ],
     "sources": [
       "https://lastpush.xyz/"
@@ -33,15 +99,48 @@
   },
   {
     "id": "egba",
-    "name": "eGBA Library",
-    "category": "vibe_coding",
-    "vendor": "eGBA",
+    "name": {
+      "en-US": "eGBA Library",
+      "zh-CN": "eGBA Library"
+    },
+    "category": {
+      "id": "consumer_app",
+      "label": {
+        "en-US": "Consumer App",
+        "zh-CN": "消费级应用"
+      }
+    },
+    "vendor": {
+      "en-US": "eGBA",
+      "zh-CN": "eGBA"
+    },
     "website": "https://egba.mom/",
-    "description": "Chrome-hosted eGBA Library exposes a lightweight EmulatorJS-based GBA emulator with a GitHub download button, localStorage-backed SRAM saves, and feature/installation/structure sections that guide you through loading ROMs and using the embedded controls.",
+    "description": {
+      "en-US": "Browser-based GBA library and emulator experience with ROM loading, SRAM persistence, and lightweight player controls.",
+      "zh-CN": "浏览器内的 GBA 游戏库与模拟器体验，支持 ROM 加载、SRAM 存档持久化和轻量播放器控制。"
+    },
     "tags": [
-      "emulator",
-      "chrome",
-      "gaming"
+      {
+        "id": "emulator",
+        "label": {
+          "en-US": "Emulator",
+          "zh-CN": "模拟器"
+        }
+      },
+      {
+        "id": "chrome",
+        "label": {
+          "en-US": "Chrome",
+          "zh-CN": "Chrome"
+        }
+      },
+      {
+        "id": "gaming",
+        "label": {
+          "en-US": "Gaming",
+          "zh-CN": "游戏"
+        }
+      }
     ],
     "sources": [
       "https://egba.mom/"
@@ -49,15 +148,48 @@
   },
   {
     "id": "nostrlink",
-    "name": "NostrLink",
-    "category": "vibe_coding",
-    "vendor": "NostrLink",
+    "name": {
+      "en-US": "NostrLink",
+      "zh-CN": "NostrLink"
+    },
+    "category": {
+      "id": "social_protocol",
+      "label": {
+        "en-US": "Social Protocol App",
+        "zh-CN": "社交协议应用"
+      }
+    },
+    "vendor": {
+      "en-US": "NostrLink",
+      "zh-CN": "NostrLink"
+    },
     "website": "https://nostrlink.xyz/",
-    "description": "Secure decentralized messaging front end built with nostr-tools; the UI lets you generate or paste a nsec key, then handle chats, polls, videos, and relay lists across Nostr event types with a minimalist dashboard.",
+    "description": {
+      "en-US": "Nostr-based messaging client that handles chats, polls, media, and relay management through a lightweight dashboard.",
+      "zh-CN": "基于 Nostr 的消息客户端，通过轻量面板处理聊天、投票、媒体内容和 relay 管理。"
+    },
     "tags": [
-      "nostr",
-      "messaging",
-      "decentralized"
+      {
+        "id": "nostr",
+        "label": {
+          "en-US": "Nostr",
+          "zh-CN": "Nostr"
+        }
+      },
+      {
+        "id": "messaging",
+        "label": {
+          "en-US": "Messaging",
+          "zh-CN": "消息通信"
+        }
+      },
+      {
+        "id": "decentralized",
+        "label": {
+          "en-US": "Decentralized",
+          "zh-CN": "去中心化"
+        }
+      }
     ],
     "sources": [
       "https://nostrlink.xyz/"
@@ -65,15 +197,48 @@
   },
   {
     "id": "xer",
-    "name": "xer",
-    "category": "vibe_coding",
-    "vendor": "xer",
+    "name": {
+      "en-US": "xer",
+      "zh-CN": "xer"
+    },
+    "category": {
+      "id": "social_automation",
+      "label": {
+        "en-US": "Social Automation",
+        "zh-CN": "社交自动化"
+      }
+    },
+    "vendor": {
+      "en-US": "xer",
+      "zh-CN": "xer"
+    },
     "website": "https://xer.mwm.mom/",
-    "description": "Open-source Chrome extension copilot for X (Twitter) that collects timeline posts, drafts replies, suggests interactions, and ships built-in risk control plus local privacy analysis so you stay in control.",
+    "description": {
+      "en-US": "Open-source X copilot extension that collects timeline posts, drafts replies, recommends actions, and keeps privacy controls local.",
+      "zh-CN": "开源的 X 平台副驾驶扩展，可收集时间线内容、起草回复、推荐互动操作，并把隐私控制保留在本地。"
+    },
     "tags": [
-      "copilot",
-      "twitter",
-      "extension"
+      {
+        "id": "copilot",
+        "label": {
+          "en-US": "Copilot",
+          "zh-CN": "副驾驶"
+        }
+      },
+      {
+        "id": "twitter",
+        "label": {
+          "en-US": "Twitter / X",
+          "zh-CN": "Twitter / X"
+        }
+      },
+      {
+        "id": "extension",
+        "label": {
+          "en-US": "Extension",
+          "zh-CN": "扩展"
+        }
+      }
     ],
     "sources": [
       "https://xer.mwm.mom/"
@@ -81,15 +246,48 @@
   },
   {
     "id": "degenskill",
-    "name": "Degenskills",
-    "category": "vibe_coding",
-    "vendor": "Degenskills",
+    "name": {
+      "en-US": "Degenskills",
+      "zh-CN": "Degenskills"
+    },
+    "category": {
+      "id": "launchpad_ai",
+      "label": {
+        "en-US": "Launchpad AI",
+        "zh-CN": "发射台 AI"
+      }
+    },
+    "vendor": {
+      "en-US": "Degenskills",
+      "zh-CN": "Degenskills"
+    },
     "website": "https://degenskill.fun/",
-    "description": "Crypto venture architect workspace that runs targeted or chaos agentic prompts against Gemini models to mint wild Web3 startup ideas, verify viability, and build tokenomic/roadmap/tech blueprints with a forge UI.",
+    "description": {
+      "en-US": "Crypto venture architect workspace that generates bold Web3 startup ideas and turns them into tokenomic, roadmap, and technical blueprints.",
+      "zh-CN": "面向加密创业的智能工作台，可生成激进的 Web3 项目想法，并输出代币经济、路线图和技术蓝图。"
+    },
     "tags": [
-      "crypto",
-      "agent",
-      "blueprint"
+      {
+        "id": "crypto",
+        "label": {
+          "en-US": "Crypto",
+          "zh-CN": "加密"
+        }
+      },
+      {
+        "id": "agent",
+        "label": {
+          "en-US": "Agent",
+          "zh-CN": "智能体"
+        }
+      },
+      {
+        "id": "blueprint",
+        "label": {
+          "en-US": "Blueprint",
+          "zh-CN": "蓝图"
+        }
+      }
     ],
     "sources": [
       "https://degenskill.fun/"
@@ -97,15 +295,48 @@
   },
   {
     "id": "wechat-extension-bot-sdk",
-    "name": "Weixin Bot SDK",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "Weixin Bot SDK",
+      "zh-CN": "Weixin Bot SDK"
+    },
+    "category": {
+      "id": "developer_sdk",
+      "label": {
+        "en-US": "Developer SDK",
+        "zh-CN": "开发者 SDK"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://www.npmjs.com/package/weixin-claw-bot-sdk",
-    "description": "TypeScript SDK for building WeChat bots on top of the iLink bot HTTP API, with QR login, session persistence, polling, event handlers, and media upload or download helpers.",
+    "description": {
+      "en-US": "TypeScript SDK for building WeChat bots with QR login, session storage, polling updates, event APIs, and media transport helpers.",
+      "zh-CN": "用于构建微信机器人的 TypeScript SDK，提供二维码登录、会话存储、轮询更新、事件 API 与多媒体收发辅助。"
+    },
     "tags": [
-      "wechat",
-      "sdk",
-      "bot"
+      {
+        "id": "wechat",
+        "label": {
+          "en-US": "WeChat",
+          "zh-CN": "微信"
+        }
+      },
+      {
+        "id": "sdk",
+        "label": {
+          "en-US": "SDK",
+          "zh-CN": "SDK"
+        }
+      },
+      {
+        "id": "bot",
+        "label": {
+          "en-US": "Bot",
+          "zh-CN": "机器人"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/wechat-extension-bot-sdk",
@@ -114,15 +345,48 @@
   },
   {
     "id": "picox",
-    "name": "picox",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "picox",
+      "zh-CN": "picox"
+    },
+    "category": {
+      "id": "agent_console",
+      "label": {
+        "en-US": "Agent Console",
+        "zh-CN": "智能体控制台"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://picox.sid.mom/",
-    "description": "Electron desktop control center for running multiple picox agents with guided setup, quick or full config editing, live logs, backups, and tray-based background lifecycle management.",
+    "description": {
+      "en-US": "Electron desktop control center for creating, configuring, monitoring, and backing up multiple local agent runtimes.",
+      "zh-CN": "基于 Electron 的桌面控制中心，用于创建、配置、监控并备份多个本地智能体运行实例。"
+    },
     "tags": [
-      "desktop",
-      "agents",
-      "electron"
+      {
+        "id": "desktop",
+        "label": {
+          "en-US": "Desktop",
+          "zh-CN": "桌面端"
+        }
+      },
+      {
+        "id": "agents",
+        "label": {
+          "en-US": "Agents",
+          "zh-CN": "智能体"
+        }
+      },
+      {
+        "id": "electron",
+        "label": {
+          "en-US": "Electron",
+          "zh-CN": "Electron"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/picox",
@@ -131,15 +395,48 @@
   },
   {
     "id": "seefactory",
-    "name": "SeeFactory",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "SeeFactory",
+      "zh-CN": "SeeFactory"
+    },
+    "category": {
+      "id": "creative_ai",
+      "label": {
+        "en-US": "Creative AI Studio",
+        "zh-CN": "创意 AI 工作室"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://seefactory.mwm.mom/",
-    "description": "AI movie studio for turning ideas into scripts, visual storyboards, scene images, and video continuations, with dedicated modes for frame planning, clip extension, and freeform creation.",
+    "description": {
+      "en-US": "AI movie studio for script writing, storyboard generation, scene imagery, and video continuation workflows.",
+      "zh-CN": "面向剧本创作、分镜生成、场景图像和视频续写流程的 AI 电影工作室。"
+    },
     "tags": [
-      "video",
-      "storyboard",
-      "ai"
+      {
+        "id": "video",
+        "label": {
+          "en-US": "Video",
+          "zh-CN": "视频"
+        }
+      },
+      {
+        "id": "storyboard",
+        "label": {
+          "en-US": "Storyboard",
+          "zh-CN": "分镜"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "en-US": "AI",
+          "zh-CN": "AI"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/seeFactory",
@@ -148,15 +445,48 @@
   },
   {
     "id": "claw2dx",
-    "name": "claw2dx",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "claw2dx",
+      "zh-CN": "claw2dx"
+    },
+    "category": {
+      "id": "social_automation",
+      "label": {
+        "en-US": "Social Automation",
+        "zh-CN": "社交自动化"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://github.com/carzygod/claw2dx",
-    "description": "Chrome extension that overlays Live2D characters on X.com, exposes a popup control panel, and accepts WebSocket commands for model switching, motions, expressions, and message bubbles.",
+    "description": {
+      "en-US": "Chrome extension that injects Live2D overlays into X.com and controls models, motions, and messages through popup commands or WebSocket events.",
+      "zh-CN": "为 X.com 注入 Live2D 角色的 Chrome 扩展，可通过弹窗命令或 WebSocket 事件控制模型、动作和气泡消息。"
+    },
     "tags": [
-      "live2d",
-      "twitter",
-      "extension"
+      {
+        "id": "live2d",
+        "label": {
+          "en-US": "Live2D",
+          "zh-CN": "Live2D"
+        }
+      },
+      {
+        "id": "twitter",
+        "label": {
+          "en-US": "Twitter / X",
+          "zh-CN": "Twitter / X"
+        }
+      },
+      {
+        "id": "extension",
+        "label": {
+          "en-US": "Extension",
+          "zh-CN": "扩展"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/claw2dx"
@@ -164,15 +494,48 @@
   },
   {
     "id": "solcraft",
-    "name": "Solcraft",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "Solcraft",
+      "zh-CN": "Solcraft"
+    },
+    "category": {
+      "id": "launchpad_ai",
+      "label": {
+        "en-US": "Launchpad AI",
+        "zh-CN": "发射台 AI"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://solcraft.mwm.mom",
-    "description": "Solana-focused venture architect that generates dapp ideas, checks for collisions, builds tokenomics and technical blueprints, and carries projects from prompt to launch-ready token flows.",
+    "description": {
+      "en-US": "Solana-focused venture architect that generates ideas, validates originality, drafts tokenomics, and prepares launch-ready dapp or token flows.",
+      "zh-CN": "聚焦 Solana 的创业架构工具，可生成项目想法、验证原创性、撰写代币经济，并准备上线级的 dapp 或发币流程。"
+    },
     "tags": [
-      "solana",
-      "ai",
-      "launchpad"
+      {
+        "id": "solana",
+        "label": {
+          "en-US": "Solana",
+          "zh-CN": "Solana"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "en-US": "AI",
+          "zh-CN": "AI"
+        }
+      },
+      {
+        "id": "launchpad",
+        "label": {
+          "en-US": "Launchpad",
+          "zh-CN": "发射台"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/solcraft",
@@ -181,15 +544,48 @@
   },
   {
     "id": "justclaw-dashboard",
-    "name": "JustClaw",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "JustClaw",
+      "zh-CN": "JustClaw"
+    },
+    "category": {
+      "id": "devops_platform",
+      "label": {
+        "en-US": "DevOps Platform",
+        "zh-CN": "DevOps 平台"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://github.com/carzygod/JUSTCLAW-DASHBOARD",
-    "description": "One-tap deployment dashboard for Clawbots with a polished web UI for bot management, runtime monitoring, secure credentials, and mock multi-chain funding flows.",
+    "description": {
+      "en-US": "Web dashboard for deploying and operating Clawbots with one-click startup, runtime metrics, secure settings, and responsive management views.",
+      "zh-CN": "用于部署和运维 Clawbot 的 Web 面板，提供一键启动、运行指标、安全配置和响应式管理界面。"
+    },
     "tags": [
-      "dashboard",
-      "deployment",
-      "bots"
+      {
+        "id": "dashboard",
+        "label": {
+          "en-US": "Dashboard",
+          "zh-CN": "仪表盘"
+        }
+      },
+      {
+        "id": "deployment",
+        "label": {
+          "en-US": "Deployment",
+          "zh-CN": "部署"
+        }
+      },
+      {
+        "id": "bots",
+        "label": {
+          "en-US": "Bots",
+          "zh-CN": "机器人"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/JUSTCLAW-DASHBOARD"
@@ -197,15 +593,48 @@
   },
   {
     "id": "nadlabs",
-    "name": "NadLabs",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "NadLabs",
+      "zh-CN": "NadLabs"
+    },
+    "category": {
+      "id": "launchpad_ai",
+      "label": {
+        "en-US": "Launchpad AI",
+        "zh-CN": "发射台 AI"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://nadlabs.fun/",
-    "description": "Monad-native AI creative studio that generates launchable concepts, verifies differentiation, drafts contracts and frontend prompts, and prepares Nad.fun token launch payloads.",
+    "description": {
+      "en-US": "Monad ecosystem creative lab that generates concepts, contracts, frontend prompts, and Nad.fun launch payloads in one guided flow.",
+      "zh-CN": "面向 Monad 生态的创意实验室，在同一条流程中生成概念、合约、前端提示词和 Nad.fun 发射所需载荷。"
+    },
     "tags": [
-      "monad",
-      "ai",
-      "launchpad"
+      {
+        "id": "monad",
+        "label": {
+          "en-US": "Monad",
+          "zh-CN": "Monad"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "en-US": "AI",
+          "zh-CN": "AI"
+        }
+      },
+      {
+        "id": "launchpad",
+        "label": {
+          "en-US": "Launchpad",
+          "zh-CN": "发射台"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/NadLabs",
@@ -214,15 +643,48 @@
   },
   {
     "id": "xminer",
-    "name": "XMiner",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "XMiner",
+      "zh-CN": "XMiner"
+    },
+    "category": {
+      "id": "social_automation",
+      "label": {
+        "en-US": "Social Automation",
+        "zh-CN": "社交自动化"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://github.com/carzygod/Xminer",
-    "description": "Chrome extension for X and Twitter that auto-scrolls feeds, extracts visible tweets into structured JSON, filters by media type, and optionally streams new items to a webhook queue.",
+    "description": {
+      "en-US": "X and Twitter data miner that scrolls feeds, extracts tweet data into JSON, filters by media type, and can push new items to webhooks.",
+      "zh-CN": "用于 X 与 Twitter 的数据采集工具，可滚动信息流、提取推文 JSON、按媒体类型过滤，并把新增内容推送到 Webhook。"
+    },
     "tags": [
-      "twitter",
-      "scraping",
-      "extension"
+      {
+        "id": "twitter",
+        "label": {
+          "en-US": "Twitter / X",
+          "zh-CN": "Twitter / X"
+        }
+      },
+      {
+        "id": "scraping",
+        "label": {
+          "en-US": "Scraping",
+          "zh-CN": "采集"
+        }
+      },
+      {
+        "id": "extension",
+        "label": {
+          "en-US": "Extension",
+          "zh-CN": "扩展"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/Xminer"
@@ -230,15 +692,48 @@
   },
   {
     "id": "4craft",
-    "name": "4craft",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "4craft",
+      "zh-CN": "4craft"
+    },
+    "category": {
+      "id": "launchpad_ai",
+      "label": {
+        "en-US": "Launchpad AI",
+        "zh-CN": "发射台 AI"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://4craft.fun/",
-    "description": "BSC and four.meme oriented AI builder that takes users from idea generation to contract synthesis, frontend prompting, and token launch preparation in one pipeline.",
+    "description": {
+      "en-US": "BSC and four.meme focused builder that connects idea generation, contract drafting, frontend prompts, and token launch preparation.",
+      "zh-CN": "聚焦 BSC 与 four.meme 的构建工具，把想法生成、合约草拟、前端提示词和发币准备串成一条流程。"
+    },
     "tags": [
-      "bsc",
-      "ai",
-      "launchpad"
+      {
+        "id": "bsc",
+        "label": {
+          "en-US": "BSC",
+          "zh-CN": "BSC"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "en-US": "AI",
+          "zh-CN": "AI"
+        }
+      },
+      {
+        "id": "launchpad",
+        "label": {
+          "en-US": "Launchpad",
+          "zh-CN": "发射台"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/4craft",
@@ -247,15 +742,48 @@
   },
   {
     "id": "clawdpack",
-    "name": "ClawdPack",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "ClawdPack",
+      "zh-CN": "ClawdPack"
+    },
+    "category": {
+      "id": "wallet_infra",
+      "label": {
+        "en-US": "Wallet Infrastructure",
+        "zh-CN": "钱包基础设施"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://github.com/carzygod/ClawdPack",
-    "description": "Permissioned Solana wallet for AI agents, offering encrypted local vault storage, multi-account derivation, and secure transaction signing for SOL and SPL assets.",
+    "description": {
+      "en-US": "Permissioned Solana wallet for AI agents with encrypted vault storage, multi-account derivation, and secure transaction signing.",
+      "zh-CN": "面向 AI 智能体的权限型 Solana 钱包，提供加密金库存储、多账户派生和安全签名能力。"
+    },
     "tags": [
-      "solana",
-      "wallet",
-      "agents"
+      {
+        "id": "solana",
+        "label": {
+          "en-US": "Solana",
+          "zh-CN": "Solana"
+        }
+      },
+      {
+        "id": "wallet",
+        "label": {
+          "en-US": "Wallet",
+          "zh-CN": "钱包"
+        }
+      },
+      {
+        "id": "agents",
+        "label": {
+          "en-US": "Agents",
+          "zh-CN": "智能体"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/ClawdPack"
@@ -263,15 +791,48 @@
   },
   {
     "id": "mailawd",
-    "name": "mailawd",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "mailawd",
+      "zh-CN": "mailawd"
+    },
+    "category": {
+      "id": "developer_sdk",
+      "label": {
+        "en-US": "Developer SDK",
+        "zh-CN": "开发者 SDK"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://mailawd.mwm.mom",
-    "description": "Minimal landing site for a Mail.tm based temporary email skill, built to present agent-friendly mailbox service access and distribute the downloadable skill definition.",
+    "description": {
+      "en-US": "Landing and distribution site for a Mail.tm based temp-mail skill intended for agent workflows and quick mailbox provisioning.",
+      "zh-CN": "基于 Mail.tm 的临时邮箱技能落地页与分发站，面向智能体流程和快速邮箱开通场景。"
+    },
     "tags": [
-      "email",
-      "skill",
-      "landing"
+      {
+        "id": "email",
+        "label": {
+          "en-US": "Email",
+          "zh-CN": "邮箱"
+        }
+      },
+      {
+        "id": "skill",
+        "label": {
+          "en-US": "Skill",
+          "zh-CN": "技能"
+        }
+      },
+      {
+        "id": "landing",
+        "label": {
+          "en-US": "Landing",
+          "zh-CN": "落地页"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/mailawd",
@@ -280,15 +841,48 @@
   },
   {
     "id": "moltindex",
-    "name": "Moltindex",
-    "category": "vibe_coding",
-    "vendor": "carzygod",
+    "name": {
+      "en-US": "Moltindex",
+      "zh-CN": "Moltindex"
+    },
+    "category": {
+      "id": "index_platform",
+      "label": {
+        "en-US": "Index Platform",
+        "zh-CN": "索引平台"
+      }
+    },
+    "vendor": {
+      "en-US": "carzygod",
+      "zh-CN": "carzygod"
+    },
     "website": "https://moltindex.mwm.mom",
-    "description": "Agent tool index platform with a React front end, Express and Mongo backend, and automated ingestion workflow that turns structured posts into searchable catalog entries.",
+    "description": {
+      "en-US": "Agent-tool index platform with React front end, Express plus Mongo backend, and automated ingestion from structured posts.",
+      "zh-CN": "智能体工具索引平台，包含 React 前端、Express + Mongo 后端，以及从结构化帖子自动入库的采集流程。"
+    },
     "tags": [
-      "indexer",
-      "agents",
-      "platform"
+      {
+        "id": "indexer",
+        "label": {
+          "en-US": "Indexer",
+          "zh-CN": "索引"
+        }
+      },
+      {
+        "id": "agents",
+        "label": {
+          "en-US": "Agents",
+          "zh-CN": "智能体"
+        }
+      },
+      {
+        "id": "platform",
+        "label": {
+          "en-US": "Platform",
+          "zh-CN": "平台"
+        }
+      }
     ],
     "sources": [
       "https://github.com/carzygod/moltindex",

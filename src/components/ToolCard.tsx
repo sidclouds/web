@@ -5,12 +5,13 @@ import { useTranslation } from 'react-i18next';
 export type ToolCardProps = {
   name: string;
   summary: string;
-  scene: string;
+  category?: string;
+  vendor?: string;
   tags: string[];
   url: string;
 };
 
-const ToolCard = ({ name, summary, scene, tags, url }: ToolCardProps) => {
+const ToolCard = ({ name, summary, category, vendor, tags, url }: ToolCardProps) => {
   const { t } = useTranslation();
 
   return (
@@ -47,9 +48,18 @@ const ToolCard = ({ name, summary, scene, tags, url }: ToolCardProps) => {
           </span>
         ))}
       </div>
-      <p className="mt-4 text-xs uppercase tracking-[0.2em] text-white/50">
-        {t('toolbox.scene')} ? {scene}
-      </p>
+      <div className="mt-4 flex flex-wrap gap-4 text-xs uppercase tracking-[0.2em] text-white/50">
+        {category ? (
+          <p>
+            {t('toolbox.category')}: {category}
+          </p>
+        ) : null}
+        {vendor ? (
+          <p>
+            {t('toolbox.vendor')}: {vendor}
+          </p>
+        ) : null}
+      </div>
     </motion.div>
   );
 };

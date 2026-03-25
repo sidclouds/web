@@ -89,7 +89,7 @@ const DevToolbox = () => {
             key={tool.id}
             name={t(tool.nameKey)}
             summary={t(tool.summaryKey)}
-            scene={t(tool.sceneKey)}
+            category={t(tool.sceneKey)}
             tags={tool.tagKeys.map((tag) => t(tag))}
             url={tool.url}
           />
